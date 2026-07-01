@@ -1,4 +1,4 @@
-```md
+
 # Hi there 👋, I'm Sahan Chathumina
 
 ## 💫 About Me
@@ -50,4 +50,3 @@
 ---
 
 > "The best way to predict the future is to create it."
-```
