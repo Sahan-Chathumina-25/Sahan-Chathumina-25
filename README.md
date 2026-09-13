@@ -28,14 +28,116 @@
 
 ## About Me
 
-Building secure systems. Exploring networks. Learning cybersecurity through hands-on projects.
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="800" height="340">
+  <defs>
+    <linearGradient id="ab-card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0B1117;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#111820;stop-opacity:0.9"/>
+    </linearGradient>
+    <linearGradient id="ab-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0.4"/>
+      <stop offset="50%" style="stop-color:#1479FF;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#00D9FF;stop-opacity:0.1"/>
+    </linearGradient>
+    <linearGradient id="ab-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1479FF;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="ab-glow">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="ab-soft">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
+    <clipPath id="ab-clip">
+      <rect x="40" y="40" width="720" height="260" rx="16"/>
+    </clipPath>
+  </defs>
 
-I am an undergraduate studying Ethical Hacking & Network Security with a passion for understanding how systems work and how to secure them. I spend my time in Linux labs, building networks, solving CTF challenges, and writing scripts to automate security tasks.
+  <!-- Background glow -->
+  <ellipse cx="400" cy="170" rx="300" ry="150" fill="#00D9FF" opacity="0.03" filter="url(#ab-soft)"/>
 
-- Exploring network security and system hardening
-- Building hands-on Linux and networking labs
-- Solving CTF challenges to sharpen my skills
-- Writing Python and Bash automation scripts
+  <!-- Card background -->
+  <rect x="40" y="40" width="720" height="260" rx="16" fill="url(#ab-card)"/>
+  <rect x="40" y="40" width="720" height="260" rx="16" fill="none" stroke="url(#ab-border)" stroke-width="1"/>
+
+  <!-- Top accent line -->
+  <rect x="60" y="40" width="80" height="2" rx="1" fill="url(#ab-accent)" opacity="0.8"/>
+
+  <!-- Section label -->
+  <text x="64" y="72" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" fill="#00D9FF" letter-spacing="2" opacity="0.7">PROFILE</text>
+
+  <!-- Vertical accent bar -->
+  <rect x="64" y="90" width="2" height="50" rx="1" fill="url(#ab-accent)" opacity="0.6"/>
+
+  <!-- Name -->
+  <text x="80" y="108" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="22" font-weight="700" fill="#EAF7FF">Sahan Chathumina</text>
+
+  <!-- Tagline -->
+  <text x="80" y="130" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="12" fill="#00D9FF" letter-spacing="0.5">Cybersecurity | Network Engineering | Linux | Ethical Hacking</text>
+
+  <!-- Animated cursor -->
+  <rect x="519.2" y="119" width="8" height="14" fill="#00D9FF" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0;0.7" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Divider line -->
+  <line x1="64" y1="150" x2="736" y2="150" stroke="#1A2736" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Description text -->
+  <foreignObject x="64" y="160" width="672" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:'Segoe UI',Arial,sans-serif;font-size:13px;line-height:1.6;color:#7F95A5;">
+      Building secure systems. Exploring networks. Learning cybersecurity through hands-on projects.
+    </div>
+  </foreignObject>
+
+  <!-- Focus areas -->
+  
+  <rect x="64" y="250" width="165" height="36" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5" opacity="0.8"/>
+  <circle cx="78" cy="268" r="3" fill="#00D9FF" opacity="0.8">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="88" y="272" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="11" fill="#EAF7FF">Cybersecurity</text>
+
+  <rect x="244" y="250" width="165" height="36" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5" opacity="0.8"/>
+  <circle cx="258" cy="268" r="3" fill="#00D9FF" opacity="0.8">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="268" y="272" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="11" fill="#EAF7FF">Network Engineering</text>
+
+  <rect x="424" y="250" width="165" height="36" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5" opacity="0.8"/>
+  <circle cx="438" cy="268" r="3" fill="#00D9FF" opacity="0.8">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="448" y="272" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="11" fill="#EAF7FF">Linux</text>
+
+  <rect x="604" y="250" width="165" height="36" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5" opacity="0.8"/>
+  <circle cx="618" cy="268" r="3" fill="#00D9FF" opacity="0.8">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="628" y="272" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="11" fill="#EAF7FF">Ethical Hacking</text>
+
+  <!-- Stats row -->
+  <line x1="64" y1="300" x2="736" y2="300" stroke="#1A2736" stroke-width="0.5" opacity="0.3"/>
+
+  
+  <text x="64" y="322" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" fill="#7F95A5" letter-spacing="1">FOCUS</text>
+  <text x="64" y="344" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="16" font-weight="700" fill="#EAF7FF">Security &amp; Networks</text>
+
+  <text x="288" y="322" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" fill="#7F95A5" letter-spacing="1">STATUS</text>
+  <text x="288" y="344" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="16" font-weight="700" fill="#EAF7FF">Learning &amp; Building</text>
+
+  <text x="512" y="322" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" fill="#7F95A5" letter-spacing="1">STACK</text>
+  <text x="512" y="344" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="16" font-weight="700" fill="#EAF7FF">Linux • Python • Bash</text>
+
+  <!-- Bottom accent -->
+  <rect x="660" y="298" width="80" height="2" rx="1" fill="url(#ab-accent)" opacity="0.4"/>
+
+  <!-- Corner decorations -->
+  <path d="M 56 44 L 52 44 L 44 52 L 44 56" fill="none" stroke="#00D9FF" stroke-width="0.5" opacity="0.3"/>
+  <path d="M 744 296 L 748 296 L 756 288 L 756 284" fill="none" stroke="#00D9FF" stroke-width="0.5" opacity="0.3"/>
+</svg>
 
 </div>
 
