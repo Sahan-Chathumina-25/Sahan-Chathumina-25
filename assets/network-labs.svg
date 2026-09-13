@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 350" width="700" height="350">
+  <defs>
+    <linearGradient id="nl-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#1479FF;stop-opacity:0.6"/>
+    </linearGradient>
+  </defs>
+
+  <text x="24" y="38" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" fill="#00D9FF" letter-spacing="1.5" opacity="0.7">NETWORK OPERATIONS</text>
+  <line x1="24" y1="46" x2="676" y2="46" stroke="url(#nl-accent)" stroke-width="0.5" opacity="0.3"/>
+
+  
+  <g opacity="0" transform="translate(0, 6)">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 6;0 0" dur="0.4s" begin="0s" fill="freeze"/>
+
+    <rect x="24" y="54" width="200" height="120" rx="10" fill="#0B1117" opacity="0.85"/>
+    <rect x="24" y="54" width="200" height="120" rx="10" fill="none" stroke="#1A2736" stroke-width="0.5"/>
+
+    <rect x="24" y="54" width="200" height="3" rx="1.5" fill="#00FF88" opacity="0.6"/>
+
+    <circle cx="208" cy="72" r="4" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+    </circle>
+
+    <text x="38" y="76" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#00FF88" letter-spacing="1" opacity="0.7">NODE 01</text>
+
+    <text x="38" y="94" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="12" font-weight="600" fill="#EAF7FF">DNS Server Lab</text>
+
+    <text x="38" y="110" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="9" fill="#7F95A5">Set up BIND DNS master/slave...</text>
+
+    <line x1="38" y1="122" x2="210" y2="122" stroke="#1A2736" stroke-width="0.5" opacity="0.3"/>
+
+    
+    <rect x="38" y="130" width="40" height="16" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="58" y="141" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5">Linux</text>
+    <rect x="96" y="130" width="34" height="16" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="113" y="141" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5">BIND</text>
+    <rect x="154" y="130" width="28" height="16" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="168" y="141" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5">DNS</text>
+
+    <rect x="38" y="152" width="172" height="3" rx="1.5" fill="#111820"/>
+    <rect x="38" y="152" width="172" height="3" rx="1.5" fill="#00FF88" opacity="0.6">
+      <animate attributeName="width" from="0" to="172" dur="0.8s" begin="0.3s" fill="freeze"/>
+    </rect>
+  </g>
+  <g opacity="0" transform="translate(0, 6)">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.1s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 6;0 0" dur="0.4s" begin="0.1s" fill="freeze"/>
+
+    <rect x="240" y="54" width="200" height="120" rx="10" fill="#0B1117" opacity="0.85"/>
+    <rect x="240" y="54" width="200" height="120" rx="10" fill="none" stroke="#1A2736" stroke-width="0.5"/>
+
+    <rect x="240" y="54" width="200" height="3" rx="1.5" fill="#00FF88" opacity="0.6"/>
+
+    <circle cx="424" cy="72" r="4" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+    </circle>
+
+    <text x="254" y="76" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#00FF88" letter-spacing="1" opacity="0.7">NODE 02</text>
+
+    <text x="254" y="94" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="12" font-weight="600" fill="#EAF7FF">DHCP Server Lab</text>
+
+    <text x="254" y="110" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="9" fill="#7F95A5">Configure ISC DHCP with rese...</text>
+
+    <line x1="254" y1="122" x2="426" y2="122" stroke="#1A2736" stroke-width="0.5" opacity="0.3"/>
+
+    
+    <rect x="254" y="130" width="40" height="16" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="274" y="141" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5">Linux</text>
+    <rect x="312" y="130" width="34" height="16" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="329" y="141" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5">DHCP</text>
+
+    <rect x="254" y="152" width="172" height="3" rx="1.5" fill="#111820"/>
+    <rect x="254" y="152" width="172" height="3" rx="1.5" fill="#00FF88" opacity="0.6">
+      <animate attributeName="width" from="0" to="172" dur="0.8s" begin="0.4s" fill="freeze"/>
+    </rect>
+  </g>
+  <g opacity="0" transform="translate(0, 6)">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.2s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 6;0 0" dur="0.4s" begin="0.2s" fill="freeze"/>
+
+    <rect x="456" y="54" width="200" height="120" rx="10" fill="#0B1117" opacity="0.85"/>
+    <rect x="456" y="54" width="200" height="120" rx="10" fill="none" stroke="#1A2736" stroke-width="0.5"/>
+
+    <rect x="456" y="54" width="200" height="3" rx="1.5" fill="#00D9FF" opacity="0.6"/>
+
+    <circle cx="640" cy="72" r="4" fill="#00D9FF" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+
+    <text x="470" y="76" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#00D9FF" letter-spacing="1" opacity="0.7">NODE 03</text>
+
+    <text x="470" y="94" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="12" font-weight="600" fill="#EAF7FF">Firewall Rules Lab</text>
+
+    <text x="470" y="110" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="9" fill="#7F95A5">Implement zone-based firewal...</text>
+
+    <line x1="470" y1="122" x2="642" y2="122" stroke="#1A2736" stroke-width="0.5" opacity="0.3"/>
+
+    
+    <rect x="470" y="130" width="40" height="16" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="490" y="141" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5">Linux</text>
+    <rect x="528" y="130" width="64" height="16" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="560" y="141" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5">firewalld</text>
+    <rect x="586" y="130" width="70" height="16" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="621" y="141" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5">Networking</text>
+
+    <rect x="470" y="152" width="172" height="3" rx="1.5" fill="#111820"/>
+    <rect x="470" y="152" width="86" height="3" rx="1.5" fill="#00D9FF" opacity="0.6">
+      <animate attributeName="width" from="0" to="86" dur="0.8s" begin="0.5s" fill="freeze"/>
+    </rect>
+  </g>
+  <g opacity="0" transform="translate(0, 6)">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.30000000000000004s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 6;0 0" dur="0.4s" begin="0.30000000000000004s" fill="freeze"/>
+
+    <rect x="24" y="190" width="200" height="120" rx="10" fill="#0B1117" opacity="0.85"/>
+    <rect x="24" y="190" width="200" height="120" rx="10" fill="none" stroke="#1A2736" stroke-width="0.5"/>
+
+    <rect x="24" y="190" width="200" height="3" rx="1.5" fill="#00D9FF" opacity="0.6"/>
+
+    <circle cx="208" cy="208" r="4" fill="#00D9FF" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.6000000000000001s"/>
+    </circle>
+
+    <text x="38" y="212" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#00D9FF" letter-spacing="1" opacity="0.7">NODE 04</text>
+
+    <text x="38" y="230" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="12" font-weight="600" fill="#EAF7FF">Subnetting Practice</text>
+
+    <text x="38" y="246" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="9" fill="#7F95A5">Practice VLSM subnetting and...</text>
+
+    <line x1="38" y1="258" x2="210" y2="258" stroke="#1A2736" stroke-width="0.5" opacity="0.3"/>
+
+    
+    <rect x="38" y="266" width="70" height="16" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="73" y="277" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5">Networking</text>
+    <rect x="96" y="266" width="70" height="16" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="131" y="277" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5">Subnetting</text>
+
+    <rect x="38" y="288" width="172" height="3" rx="1.5" fill="#111820"/>
+    <rect x="38" y="288" width="86" height="3" rx="1.5" fill="#00D9FF" opacity="0.6">
+      <animate attributeName="width" from="0" to="86" dur="0.8s" begin="0.6000000000000001s" fill="freeze"/>
+    </rect>
+  </g>
+  <g opacity="0" transform="translate(0, 6)">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.4s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 6;0 0" dur="0.4s" begin="0.4s" fill="freeze"/>
+
+    <rect x="240" y="190" width="200" height="120" rx="10" fill="#0B1117" opacity="0.85"/>
+    <rect x="240" y="190" width="200" height="120" rx="10" fill="none" stroke="#1A2736" stroke-width="0.5"/>
+
+    <rect x="240" y="190" width="200" height="3" rx="1.5" fill="#7F95A5" opacity="0.6"/>
+
+    <circle cx="424" cy="208" r="4" fill="#7F95A5" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.7s"/>
+    </circle>
+
+    <text x="254" y="212" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5" letter-spacing="1" opacity="0.7">NODE 05</text>
+
+    <text x="254" y="230" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="12" font-weight="600" fill="#EAF7FF">VLAN Configuration Lab</text>
+
+    <text x="254" y="246" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="9" fill="#7F95A5">Configure VLANs, trunk ports...</text>
+
+    <line x1="254" y1="258" x2="426" y2="258" stroke="#1A2736" stroke-width="0.5" opacity="0.3"/>
+
+    
+    <rect x="254" y="266" width="70" height="16" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="289" y="277" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5">Networking</text>
+    <rect x="312" y="266" width="34" height="16" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="329" y="277" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5">VLAN</text>
+    <rect x="370" y="266" width="64" height="16" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="402" y="277" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5">Switching</text>
+
+    <rect x="254" y="288" width="172" height="3" rx="1.5" fill="#111820"/>
+    <rect x="254" y="288" width="0" height="3" rx="1.5" fill="#7F95A5" opacity="0.6">
+      <animate attributeName="width" from="0" to="0" dur="0.8s" begin="0.7s" fill="freeze"/>
+    </rect>
+  </g>
+</svg>

@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 450" width="700" height="450">
+  <defs>
+    <linearGradient id="ld-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#1479FF;stop-opacity:0.6"/>
+    </linearGradient>
+  </defs>
+
+  <text x="24" y="38" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" fill="#00D9FF" letter-spacing="1.5" opacity="0.7">LINUX LABS</text>
+  <line x1="24" y1="46" x2="676" y2="46" stroke="url(#ld-accent)" stroke-width="0.5" opacity="0.3"/>
+
+  
+  <g opacity="0" transform="translate(0, 6)">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 6;0 0" dur="0.4s" begin="0s" fill="freeze"/>
+
+    <rect x="24" y="54" width="652" height="56" rx="8" fill="#0B1117" opacity="0.8"/>
+    <rect x="24" y="54" width="652" height="56" rx="8" fill="none" stroke="#1A2736" stroke-width="0.5"/>
+
+    <rect x="24" y="62" width="3" height="40" rx="1.5" fill="#00FF88" opacity="0.7"/>
+
+    <text x="40" y="74" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="13" font-weight="600" fill="#EAF7FF">SSH Security Lab</text>
+
+    <text x="40" y="90" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="10" fill="#7F95A5">Configure SSH key-based auth, disable root login, im...</text>
+
+    <text x="40" y="104" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5" opacity="0.5">Linux  •  SSH</text>
+
+    <rect x="586" y="66" width="76" height="22" rx="11" fill="#111820" stroke="#00FF88" stroke-width="0.8" opacity="0.8"/>
+    <circle cx="596" cy="77" r="3" fill="#00FF88" opacity="0.8"/>
+    <text x="624" y="82" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#00FF88" letter-spacing="0.5">COMPLETED</text>
+  </g>
+  <g opacity="0" transform="translate(0, 6)">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.12s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 6;0 0" dur="0.4s" begin="0.12s" fill="freeze"/>
+
+    <rect x="24" y="116" width="652" height="56" rx="8" fill="#0B1117" opacity="0.8"/>
+    <rect x="24" y="116" width="652" height="56" rx="8" fill="none" stroke="#1A2736" stroke-width="0.5"/>
+
+    <rect x="24" y="124" width="3" height="40" rx="1.5" fill="#00FF88" opacity="0.7"/>
+
+    <text x="40" y="136" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="13" font-weight="600" fill="#EAF7FF">DNS Server Lab</text>
+
+    <text x="40" y="152" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="10" fill="#7F95A5">Set up BIND DNS master/slave with zone transfers</text>
+
+    <text x="40" y="166" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5" opacity="0.5">Linux  •  BIND  •  DNS</text>
+
+    <rect x="586" y="128" width="76" height="22" rx="11" fill="#111820" stroke="#00FF88" stroke-width="0.8" opacity="0.8"/>
+    <circle cx="596" cy="139" r="3" fill="#00FF88" opacity="0.8"/>
+    <text x="624" y="144" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#00FF88" letter-spacing="0.5">COMPLETED</text>
+  </g>
+  <g opacity="0" transform="translate(0, 6)">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.24s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 6;0 0" dur="0.4s" begin="0.24s" fill="freeze"/>
+
+    <rect x="24" y="178" width="652" height="56" rx="8" fill="#0B1117" opacity="0.8"/>
+    <rect x="24" y="178" width="652" height="56" rx="8" fill="none" stroke="#1A2736" stroke-width="0.5"/>
+
+    <rect x="24" y="186" width="3" height="40" rx="1.5" fill="#00FF88" opacity="0.7"/>
+
+    <text x="40" y="198" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="13" font-weight="600" fill="#EAF7FF">DHCP Server Lab</text>
+
+    <text x="40" y="214" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="10" fill="#7F95A5">Configure ISC DHCP with reservations and relay agents</text>
+
+    <text x="40" y="228" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5" opacity="0.5">Linux  •  DHCP</text>
+
+    <rect x="586" y="190" width="76" height="22" rx="11" fill="#111820" stroke="#00FF88" stroke-width="0.8" opacity="0.8"/>
+    <circle cx="596" cy="201" r="3" fill="#00FF88" opacity="0.8"/>
+    <text x="624" y="206" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#00FF88" letter-spacing="0.5">COMPLETED</text>
+  </g>
+  <g opacity="0" transform="translate(0, 6)">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.36s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 6;0 0" dur="0.4s" begin="0.36s" fill="freeze"/>
+
+    <rect x="24" y="240" width="652" height="56" rx="8" fill="#0B1117" opacity="0.8"/>
+    <rect x="24" y="240" width="652" height="56" rx="8" fill="none" stroke="#1A2736" stroke-width="0.5"/>
+
+    <rect x="24" y="248" width="3" height="40" rx="1.5" fill="#00D9FF" opacity="0.7"/>
+
+    <text x="40" y="260" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="13" font-weight="600" fill="#EAF7FF">Firewall Rules Lab</text>
+
+    <text x="40" y="276" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="10" fill="#7F95A5">Implement zone-based firewall rules and NAT</text>
+
+    <text x="40" y="290" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5" opacity="0.5">Linux  •  firewalld  •  Networking</text>
+
+    <rect x="586" y="252" width="76" height="22" rx="11" fill="#111820" stroke="#00D9FF" stroke-width="0.8" opacity="0.8"/>
+    <circle cx="596" cy="263" r="3" fill="#00D9FF" opacity="0.8"/>
+    <text x="624" y="268" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#00D9FF" letter-spacing="0.5">IN PROGRESS</text>
+  </g>
+  <g opacity="0" transform="translate(0, 6)">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.48s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 6;0 0" dur="0.4s" begin="0.48s" fill="freeze"/>
+
+    <rect x="24" y="302" width="652" height="56" rx="8" fill="#0B1117" opacity="0.8"/>
+    <rect x="24" y="302" width="652" height="56" rx="8" fill="none" stroke="#1A2736" stroke-width="0.5"/>
+
+    <rect x="24" y="310" width="3" height="40" rx="1.5" fill="#00FF88" opacity="0.7"/>
+
+    <text x="40" y="322" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="13" font-weight="600" fill="#EAF7FF">Apache Web Server Lab</text>
+
+    <text x="40" y="338" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="10" fill="#7F95A5">Configure virtual hosts, SSL/TLS, and access controls</text>
+
+    <text x="40" y="352" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5" opacity="0.5">Linux  •  Apache</text>
+
+    <rect x="586" y="314" width="76" height="22" rx="11" fill="#111820" stroke="#00FF88" stroke-width="0.8" opacity="0.8"/>
+    <circle cx="596" cy="325" r="3" fill="#00FF88" opacity="0.8"/>
+    <text x="624" y="330" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#00FF88" letter-spacing="0.5">COMPLETED</text>
+  </g>
+  <g opacity="0" transform="translate(0, 6)">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.6s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 6;0 0" dur="0.4s" begin="0.6s" fill="freeze"/>
+
+    <rect x="24" y="364" width="652" height="56" rx="8" fill="#0B1117" opacity="0.8"/>
+    <rect x="24" y="364" width="652" height="56" rx="8" fill="none" stroke="#1A2736" stroke-width="0.5"/>
+
+    <rect x="24" y="372" width="3" height="40" rx="1.5" fill="#1479FF" opacity="0.7"/>
+
+    <text x="40" y="384" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="13" font-weight="600" fill="#EAF7FF">SELinux Lab</text>
+
+    <text x="40" y="400" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="10" fill="#7F95A5">Configure SELinux policies and troubleshoot denials</text>
+
+    <text x="40" y="414" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5" opacity="0.5">Linux  •  SELinux</text>
+
+    <rect x="586" y="376" width="76" height="22" rx="11" fill="#111820" stroke="#1479FF" stroke-width="0.8" opacity="0.8"/>
+    <circle cx="596" cy="387" r="3" fill="#1479FF" opacity="0.8"/>
+    <text x="624" y="392" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#1479FF" letter-spacing="0.5">LEARNING</text>
+  </g>
+</svg>

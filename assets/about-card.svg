@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="800" height="340">
+  <defs>
+    <linearGradient id="ab-card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0B1117;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#111820;stop-opacity:0.9"/>
+    </linearGradient>
+    <linearGradient id="ab-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0.4"/>
+      <stop offset="50%" style="stop-color:#1479FF;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#00D9FF;stop-opacity:0.1"/>
+    </linearGradient>
+    <linearGradient id="ab-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D9FF"/>
+      <stop offset="100%" style="stop-color:#1479FF"/>
+    </linearGradient>
+    <filter id="ab-glow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="ab-soft">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <clipPath id="ab-clip">
+      <rect x="30" y="30" width="740" height="280" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#ab-clip)">
+    <rect width="800" height="340" fill="#05070A"/>
+
+    <ellipse cx="400" cy="170" rx="280" ry="120" fill="#00D9FF" opacity="0.03" filter="url(#ab-soft)"/>
+
+    <rect x="30" y="30" width="740" height="280" rx="14" fill="url(#ab-card)"/>
+    <rect x="30" y="30" width="740" height="280" rx="14" fill="none" stroke="url(#ab-border)" stroke-width="1"/>
+
+    <rect x="50" y="30" width="80" height="2" rx="1" fill="url(#ab-accent)" opacity="0.8"/>
+
+    <text x="54" y="62" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" fill="#00D9FF" letter-spacing="2" opacity="0.7">PROFILE</text>
+
+    <rect x="54" y="80" width="2" height="45" rx="1" fill="url(#ab-accent)" opacity="0.6"/>
+
+    <text x="70" y="98" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="22" font-weight="700" fill="#EAF7FF">Sahan Chathumina</text>
+
+    <text x="70" y="120" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="12" fill="#00D9FF" letter-spacing="0.5">Cybersecurity • Network Engineering • Linux • Full Stack Development</text>
+
+    <rect x="559.6" y="109" width="8" height="14" fill="#00D9FF" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0;0.7" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+
+    <line x1="54" y1="138" x2="746" y2="138" stroke="#1A2736" stroke-width="0.5" opacity="0.5"/>
+
+    <foreignObject x="54" y="148" width="692" height="70">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:'Segoe UI',Arial,sans-serif;font-size:13px;line-height:1.6;color:#7F95A5;">
+        Building secure systems. Exploring networks. Developing practical digital solutions. An undergraduate studying Ethical Hacking &amp; Network Security with a passion for understanding how systems work and how to secure them.
+      </div>
+    </foreignObject>
+
+    
+    <rect x="50" y="205" width="165" height="34" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5" opacity="0.85"/>
+    <circle cx="64" cy="222" r="3" fill="#00D9FF" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="74" y="226" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="11" fill="#EAF7FF">CYBERSECURITY</text>
+
+    <rect x="228" y="205" width="165" height="34" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5" opacity="0.85"/>
+    <circle cx="242" cy="222" r="3" fill="#00D9FF" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+    <text x="252" y="226" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="11" fill="#EAF7FF">NETWORKING</text>
+
+    <rect x="406" y="205" width="165" height="34" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5" opacity="0.85"/>
+    <circle cx="420" cy="222" r="3" fill="#00D9FF" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="430" y="226" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="11" fill="#EAF7FF">LINUX</text>
+
+    <rect x="584" y="205" width="165" height="34" rx="8" fill="#111820" stroke="#1A2736" stroke-width="0.5" opacity="0.85"/>
+    <circle cx="598" cy="222" r="3" fill="#00D9FF" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.7s" repeatCount="indefinite"/>
+    </circle>
+    <text x="608" y="226" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="11" fill="#EAF7FF">FULL STACK</text>
+
+    <line x1="54" y1="255" x2="746" y2="255" stroke="#1A2736" stroke-width="0.5" opacity="0.3"/>
+
+    
+    <text x="50" y="272" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" fill="#7F95A5" letter-spacing="1">FOCUS</text>
+    <text x="50" y="296" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="16" font-weight="700" fill="#EAF7FF">Security</text>
+
+    <text x="225" y="272" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" fill="#7F95A5" letter-spacing="1">SYSTEMS</text>
+    <text x="225" y="296" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="16" font-weight="700" fill="#EAF7FF">Linux</text>
+
+    <text x="400" y="272" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" fill="#7F95A5" letter-spacing="1">STACK</text>
+    <text x="400" y="296" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="16" font-weight="700" fill="#EAF7FF">WordPress</text>
+
+    <text x="575" y="272" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="10" fill="#7F95A5" letter-spacing="1">STATUS</text>
+    <text x="575" y="296" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="16" font-weight="700" fill="#EAF7FF">Learning</text>
+
+    <rect x="670" y="308" width="80" height="2" rx="1" fill="url(#ab-accent)" opacity="0.4"/>
+
+    <path d="M 44 34 L 42 34 L 34 42 L 34 44" fill="none" stroke="#00D9FF" stroke-width="0.5" opacity="0.3"/>
+    <path d="M 756 306 L 758 306 L 766 298 L 766 296" fill="none" stroke="#00D9FF" stroke-width="0.5" opacity="0.3"/>
+
+    <rect x="0" y="0" width="800" height="1.5" fill="#00D9FF" opacity="0.06">
+      <animate attributeName="y" values="0;340;0" dur="8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

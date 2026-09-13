@@ -127,7 +127,7 @@
 
   <!-- Tagline -->
   <text x="640" y="240" text-anchor="middle" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="15" fill="#7F95A5" letter-spacing="3.5">
-    CYBERSECURITY  •  NETWORK ENGINEERING  •  LINUX  •  ETHICAL HACKING
+    CYBERSECURITY  •  NETWORK ENGINEERING  •  LINUX  •  FULL STACK DEVELOPMENT  •  ETHICAL HACKING
   </text>
 
   <line x1="180" y1="385" x2="1100" y2="385" stroke="url(#hb-accent)" stroke-width="0.8" opacity="0.12"/>

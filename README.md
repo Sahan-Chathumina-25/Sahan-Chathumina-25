@@ -6,38 +6,17 @@
 
 <div align="center">
 
-```
- ┌──────────────────────────────────────────────────────────────┐
- │                                                              │
- │   $ whoami                                                   │
- │   sahan.chathumina@cyberlab                 │
- │                                                              │
- │   $ focus                                                    │
- │   > Cybersecurity                                            │
- │   > Network Engineering                                      │
- │   > Linux                                                    │
- │   > Ethical Hacking                                          │
- │                                                              │
- │   $ status                                                   │
- │   ● ONLINE  •  LEARNING  •  BUILDING                         │
- │                                                              │
- └──────────────────────────────────────────────────────────────┘
-```
+## About Me
+
+<img src="assets/about-card.svg" alt="About Me — Identity panel with profile summary, focus areas, and statistics" width="800"/>
 
 </div>
 
 <div align="center">
 
-## About Me
+## Who Am I
 
-Building secure systems. Exploring networks. Learning cybersecurity through hands-on projects.
-
-I am an undergraduate studying Ethical Hacking & Network Security with a passion for understanding how systems work and how to secure them. I spend my time in Linux labs, building networks, solving CTF challenges, and writing scripts to automate security tasks.
-
-- Exploring network security and system hardening
-- Building hands-on Linux and networking labs
-- Solving CTF challenges to sharpen my skills
-- Writing Python and Bash automation scripts
+<img src="assets/terminal.svg" alt="Terminal interface showing identity, stack, focus, and status" width="700"/>
 
 </div>
 
@@ -45,7 +24,7 @@ I am an undergraduate studying Ethical Hacking & Network Security with a passion
 
 ## Skill Overview
 
-<img src="assets/skill-circles.svg" alt="Skill proficiency percentages" width="620"/>
+<img src="assets/skill-circles.svg" alt="Skill proficiency percentages — Cybersecurity, Networking, Linux, Full Stack Development" width="680"/>
 
 </div>
 
@@ -63,9 +42,9 @@ I am an undergraduate studying Ethical Hacking & Network Security with a passion
 
 ![Linux](https://img.shields.io/badge/Linux-Practicing-cyan) ![CentOS](https://img.shields.io/badge/CentOS-Practicing-cyan) ![Rocky Linux](https://img.shields.io/badge/Rocky%20Linux-Learning-blue) ![SSH](https://img.shields.io/badge/SSH-Practicing-cyan) ![Apache](https://img.shields.io/badge/Apache-Practicing-cyan) ![BIND DNS](https://img.shields.io/badge/BIND%20DNS-Practicing-cyan) ![firewalld](https://img.shields.io/badge/firewalld-Practicing-cyan) ![systemd](https://img.shields.io/badge/systemd-Practicing-cyan) ![Bash](https://img.shields.io/badge/Bash-Practicing-cyan) ![Server Hardening](https://img.shields.io/badge/Server%20Hardening-Learning-blue) ![SELinux](https://img.shields.io/badge/SELinux-Learning-blue) ![Auditd](https://img.shields.io/badge/Auditd-Learning-blue)
 
-### Development
+### Full Stack Development
 
-![Python](https://img.shields.io/badge/Python-Practicing-cyan) ![Bash](https://img.shields.io/badge/Bash-Practicing-cyan) ![JavaScript](https://img.shields.io/badge/JavaScript-Learning-blue) ![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-Practicing-cyan) ![PHP](https://img.shields.io/badge/PHP-Learning-blue) ![MySQL](https://img.shields.io/badge/MySQL-Learning-blue) ![Full Stack Development](https://img.shields.io/badge/Full%20Stack%20Development-Learning-blue)
+![WordPress](https://img.shields.io/badge/WordPress-Learning-blue) ![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-Practicing-cyan) ![JavaScript](https://img.shields.io/badge/JavaScript-Learning-blue) ![PHP](https://img.shields.io/badge/PHP-Learning-blue) ![MySQL](https://img.shields.io/badge/MySQL-Learning-blue) ![Python](https://img.shields.io/badge/Python-Practicing-cyan) ![Bash](https://img.shields.io/badge/Bash-Practicing-cyan)
 
 ### Tools
 
@@ -95,7 +74,7 @@ I am an undergraduate studying Ethical Hacking & Network Security with a passion
 
 ## Network Architecture
 
-<img src="assets/network-topology.svg" alt="Network topology diagram" width="600"/>
+<img src="assets/network-architecture.svg" alt="Advanced network architecture — Internet, Firewall, Load Balancer, Web Tier, Application Layer, Database, Backup" width="800"/>
 
 </div>
 
@@ -205,37 +184,29 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 
 
 
+<div align="center">
+
 ## Cybersecurity Lab
 
-| Platform | Category | Challenge | Difficulty | Skills |
-|----------|----------|-----------|------------|--------|
-| TryHackMe | Web Exploitation | Various web security challenges | Easy - Medium | SQL Injection, XSS, Web Enumeration |
-| TryHackMe | Forensics | File analysis and memory forensics | Easy | File Analysis, Memory Forensics, Log Analysis |
-| PicoCTF | Cryptography | Basic cryptography challenges | Easy - Medium | Encoding, Basic Crypto, Problem Solving |
+<img src="assets/cyber-labs.svg" alt="Cybersecurity CTF lab cards with difficulty bars and skill indicators" width="700"/>
 
+</div>
+
+<div align="center">
 
 ## Linux Labs
 
-| Lab | Technology | Objective | Status |
-|-----|-----------|-----------|--------|
-| SSH Security Lab | Linux, SSH | Configure SSH key-based auth, disable root login, implement fail2ban | ![Completed](https://img.shields.io/badge/Completed-brightgreen) |
-| DNS Server Lab | Linux, BIND, DNS | Set up BIND DNS master/slave with zone transfers | ![Completed](https://img.shields.io/badge/Completed-brightgreen) |
-| DHCP Server Lab | Linux, DHCP | Configure ISC DHCP with reservations and relay agents | ![Completed](https://img.shields.io/badge/Completed-brightgreen) |
-| Firewall Rules Lab | Linux, firewalld, Networking | Implement zone-based firewall rules and NAT | ![In Progress](https://img.shields.io/badge/In%20Progress-yellow) |
-| Apache Web Server Lab | Linux, Apache | Configure virtual hosts, SSL/TLS, and access controls | ![Completed](https://img.shields.io/badge/Completed-brightgreen) |
-| SELinux Lab | Linux, SELinux | Configure SELinux policies and troubleshoot denials | ![Learning](https://img.shields.io/badge/Learning-blue) |
+<img src="assets/linux-labs.svg" alt="Linux lab dashboard with status indicators and technology labels" width="700"/>
 
+</div>
+
+<div align="center">
 
 ## Networking Labs
 
-| Lab | Technology | Objective | Status |
-|-----|-----------|-----------|--------|
-| DNS Server Lab | Linux, BIND, DNS | Set up BIND DNS master/slave with zone transfers | ![Completed](https://img.shields.io/badge/Completed-brightgreen) |
-| DHCP Server Lab | Linux, DHCP | Configure ISC DHCP with reservations and relay agents | ![Completed](https://img.shields.io/badge/Completed-brightgreen) |
-| Firewall Rules Lab | Linux, firewalld, Networking | Implement zone-based firewall rules and NAT | ![In Progress](https://img.shields.io/badge/In%20Progress-yellow) |
-| Subnetting Practice | Networking, Subnetting | Practice VLSM subnetting and IP address planning | ![In Progress](https://img.shields.io/badge/In%20Progress-yellow) |
-| VLAN Configuration Lab | Networking, VLAN, Switching | Configure VLANs, trunk ports, and inter-VLAN routing | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
+<img src="assets/network-labs.svg" alt="Network operations dashboard with lab nodes, status indicators, and progress bars" width="700"/>
 
+</div>
 
 
 
@@ -255,12 +226,13 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 
 
 
+<div align="center">
+
 ## Certifications & Courses
 
-- **Red Hat System Administration I** — Red Hat ![Completed](https://img.shields.io/badge/Completed-brightgreen) (2026)
-- **CCNA: Introduction to Networks** — Cisco ![In Progress](https://img.shields.io/badge/In%20Progress-yellow) (2026)
-- **Diploma in English** — Academy - English in Seven Boxes ![Completed](https://img.shields.io/badge/Completed-brightgreen) (2025)
+<img src="assets/certifications.svg" alt="Certification timeline — Red Hat, CCNA 3 modules, Diploma in English" width="700"/>
 
+</div>
 
 ## Education
 
@@ -319,10 +291,8 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 
 <div align="center">
 
----
+## Footer
 
-### <sub>SYSTEM STATUS: ONLINE</sub>
-
-**BUILD  •  LEARN  •  SECURE**
+<img src="assets/footer-cinematic.svg" alt="Cinematic footer — BUILD • LEARN • SECURE — System Status: ONLINE" width="600"/>
 
 </div>

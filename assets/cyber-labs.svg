@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 294" width="700" height="294">
+  
+  <g opacity="0" transform="translate(0, 8)">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 8;0 0" dur="0.5s" begin="0s" fill="freeze"/>
+
+    <rect x="24" y="24" width="652" height="72" rx="10" fill="#0B1117" opacity="0.85"/>
+    <rect x="24" y="24" width="652" height="72" rx="10" fill="none" stroke="#1A2736" stroke-width="0.5"/>
+
+    <rect x="24" y="34" width="3" height="52" rx="1.5" fill="#1479FF" opacity="0.6"/>
+
+    <text x="40" y="46" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="9" fill="#1479FF" letter-spacing="1" opacity="0.7">CTF 01</text>
+    <text x="40" y="64" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="14" font-weight="600" fill="#EAF7FF">Web Exploitation</text>
+    <text x="40" y="80" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="10" fill="#7F95A5">TryHackMe  •  Various web security challenges</text>
+
+    <text x="40" y="92" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5" opacity="0.6">DIFFICULTY</text>
+    <rect x="104" y="85" width="100" height="4" rx="2" fill="#111820"/>
+    <rect x="104" y="85" width="60" height="4" rx="2" fill="#00D9FF" opacity="0.7">
+      <animate attributeName="width" from="0" to="60" dur="0.8s" begin="0.3s" fill="freeze"/>
+    </rect>
+
+    
+    <rect x="640.5" y="36" width="100.5" height="20" rx="10" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="690.75" y="50" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5">SQL Injection</text>
+    <rect x="620.5" y="36" width="35.5" height="20" rx="10" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="638.25" y="50" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5">XSS</text>
+    <rect x="457.5" y="36" width="113.5" height="20" rx="10" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="514.25" y="50" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5">Web Enumeration</text>
+
+    <circle cx="660" cy="60" r="4" fill="#00FF88" opacity="0.7">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+  </g>
+  <g opacity="0" transform="translate(0, 8)">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.15s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 8;0 0" dur="0.5s" begin="0.15s" fill="freeze"/>
+
+    <rect x="24" y="106" width="652" height="72" rx="10" fill="#0B1117" opacity="0.85"/>
+    <rect x="24" y="106" width="652" height="72" rx="10" fill="none" stroke="#1A2736" stroke-width="0.5"/>
+
+    <rect x="24" y="116" width="3" height="52" rx="1.5" fill="#1479FF" opacity="0.6"/>
+
+    <text x="40" y="128" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="9" fill="#1479FF" letter-spacing="1" opacity="0.7">CTF 02</text>
+    <text x="40" y="146" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="14" font-weight="600" fill="#EAF7FF">Forensics</text>
+    <text x="40" y="162" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="10" fill="#7F95A5">TryHackMe  •  File analysis and memory forensics</text>
+
+    <text x="40" y="174" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5" opacity="0.6">DIFFICULTY</text>
+    <rect x="104" y="167" width="100" height="4" rx="2" fill="#111820"/>
+    <rect x="104" y="167" width="35" height="4" rx="2" fill="#00D9FF" opacity="0.7">
+      <animate attributeName="width" from="0" to="35" dur="0.8s" begin="0.44999999999999996s" fill="freeze"/>
+    </rect>
+
+    
+    <rect x="640.5" y="118" width="100.5" height="20" rx="10" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="690.75" y="132" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5">File Analysis</text>
+    <rect x="536" y="118" width="120" height="20" rx="10" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="596" y="132" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5">Memory Forensics</text>
+    <rect x="477" y="118" width="94" height="20" rx="10" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="524" y="132" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5">Log Analysis</text>
+
+    <circle cx="660" cy="142" r="4" fill="#00FF88" opacity="0.7">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.65s"/>
+    </circle>
+  </g>
+  <g opacity="0" transform="translate(0, 8)">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.3s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 8;0 0" dur="0.5s" begin="0.3s" fill="freeze"/>
+
+    <rect x="24" y="188" width="652" height="72" rx="10" fill="#0B1117" opacity="0.85"/>
+    <rect x="24" y="188" width="652" height="72" rx="10" fill="none" stroke="#1A2736" stroke-width="0.5"/>
+
+    <rect x="24" y="198" width="3" height="52" rx="1.5" fill="#1479FF" opacity="0.6"/>
+
+    <text x="40" y="210" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="9" fill="#1479FF" letter-spacing="1" opacity="0.7">CTF 03</text>
+    <text x="40" y="228" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="14" font-weight="600" fill="#EAF7FF">Cryptography</text>
+    <text x="40" y="244" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="10" fill="#7F95A5">PicoCTF  •  Basic cryptography challenges</text>
+
+    <text x="40" y="256" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5" opacity="0.6">DIFFICULTY</text>
+    <rect x="104" y="249" width="100" height="4" rx="2" fill="#111820"/>
+    <rect x="104" y="249" width="60" height="4" rx="2" fill="#00D9FF" opacity="0.7">
+      <animate attributeName="width" from="0" to="60" dur="0.8s" begin="0.6s" fill="freeze"/>
+    </rect>
+
+    
+    <rect x="673" y="200" width="68" height="20" rx="10" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="707" y="214" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5">Encoding</text>
+    <rect x="562" y="200" width="94" height="20" rx="10" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="609" y="214" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5">Basic Crypto</text>
+    <rect x="457.5" y="200" width="113.5" height="20" rx="10" fill="#111820" stroke="#1A2736" stroke-width="0.5"/>
+    <text x="514.25" y="214" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#7F95A5">Problem Solving</text>
+
+    <circle cx="660" cy="224" r="4" fill="#00FF88" opacity="0.7">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+    </circle>
+  </g>
+</svg>

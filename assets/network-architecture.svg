@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520">
+  <defs>
+    <linearGradient id="na-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#1479FF;stop-opacity:0.8"/>
+    </linearGradient>
+    <filter id="na-glow">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="na-soft">
+      <feGaussianBlur stdDeviation="50"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="520" fill="#05070A"/>
+  <ellipse cx="400" cy="260" rx="300" ry="200" fill="#00D9FF" opacity="0.02" filter="url(#na-soft)"/>
+
+  <g opacity="0.015" stroke="#00D9FF" stroke-width="0.5">
+    <line x1="0" y1="0" x2="800" y2="0"/>
+    <line x1="0" y1="50" x2="800" y2="50"/>
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="350" x2="800" y2="350"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="450" x2="800" y2="450"/>
+    <line x1="0" y1="500" x2="800" y2="500"/>
+    <line x1="0" y1="0" x2="0" y2="520"/>
+    <line x1="100" y1="0" x2="100" y2="520"/>
+    <line x1="200" y1="0" x2="200" y2="520"/>
+    <line x1="300" y1="0" x2="300" y2="520"/>
+    <line x1="400" y1="0" x2="400" y2="520"/>
+    <line x1="500" y1="0" x2="500" y2="520"/>
+    <line x1="600" y1="0" x2="600" y2="520"/>
+    <line x1="700" y1="0" x2="700" y2="520"/>
+    <line x1="800" y1="0" x2="800" y2="520"/>
+  </g>
+
+  <g opacity="0.15">
+    <rect x="30" y="28" width="2" height="464" rx="1" fill="#00D9FF" opacity="0.1"/>
+  </g>
+
+  <g>
+    <line x1="400" y1="62" x2="400" y2="100" stroke="#00D9FF" stroke-width="1" opacity="0.2"/>
+    <line x1="400" y1="140" x2="400" y2="180" stroke="#00D9FF" stroke-width="1" opacity="0.2"/>
+    <line x1="400" y1="220" x2="280" y2="262" stroke="#00D9FF" stroke-width="1" opacity="0.2"/>
+    <line x1="400" y1="220" x2="520" y2="262" stroke="#00D9FF" stroke-width="1" opacity="0.2"/>
+    <line x1="280" y1="298" x2="400" y2="340" stroke="#00D9FF" stroke-width="1" opacity="0.2"/>
+    <line x1="520" y1="298" x2="400" y2="340" stroke="#00D9FF" stroke-width="1" opacity="0.2"/>
+    <line x1="400" y1="380" x2="400" y2="420" stroke="#00D9FF" stroke-width="1" opacity="0.2"/>
+    <line x1="400" y1="460" x2="400" y2="504" stroke="#00D9FF" stroke-width="1" opacity="0.2"/>
+  </g>
+
+  <g>
+    <circle r="2.5" fill="#00D9FF" opacity="0.8" filter="url(#na-glow)">
+      <animateMotion dur="2.5s" repeatCount="indefinite" path="M400,62 L400,100"/>
+    </circle>
+    <circle r="2.5" fill="#00D9FF" opacity="0.8" filter="url(#na-glow)">
+      <animateMotion dur="2.8s" repeatCount="indefinite" path="M400,140 L400,180"/>
+    </circle>
+    <circle r="2.5" fill="#00D9FF" opacity="0.8" filter="url(#na-glow)">
+      <animateMotion dur="3.1s" repeatCount="indefinite" path="M400,220 L280,262"/>
+    </circle>
+    <circle r="2.5" fill="#00D9FF" opacity="0.8" filter="url(#na-glow)">
+      <animateMotion dur="3.4s" repeatCount="indefinite" path="M400,220 L520,262"/>
+    </circle>
+    <circle r="2.5" fill="#00D9FF" opacity="0.8" filter="url(#na-glow)">
+      <animateMotion dur="3.7s" repeatCount="indefinite" path="M280,298 L400,340"/>
+    </circle>
+    <circle r="2.5" fill="#00D9FF" opacity="0.8" filter="url(#na-glow)">
+      <animateMotion dur="4s" repeatCount="indefinite" path="M520,298 L400,340"/>
+    </circle>
+    <circle r="2.5" fill="#00D9FF" opacity="0.8" filter="url(#na-glow)">
+      <animateMotion dur="4.3s" repeatCount="indefinite" path="M400,380 L400,420"/>
+    </circle>
+    <circle r="2.5" fill="#00D9FF" opacity="0.8" filter="url(#na-glow)">
+      <animateMotion dur="4.6s" repeatCount="indefinite" path="M400,460 L400,504"/>
+    </circle>
+  </g>
+
+  <g>
+    
+    <circle cx="400" cy="40" r="22" fill="#0B1117" stroke="#00D9FF" stroke-width="1.5" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0s" fill="freeze"/>
+    </circle>
+    <text x="400" y="41" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#00D9FF" opacity="0">
+      INTERNET
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.2s" fill="freeze"/>
+    </text>
+    
+    <circle cx="400" cy="40" r="28" fill="none" stroke="#00D9FF" stroke-width="0.5" opacity="0">
+      <animate attributeName="opacity" values="0;0.15;0" dur="3s" repeatCount="indefinite" begin="0s"/>
+      <animate attributeName="r" values="26;32;26" dur="3s" repeatCount="indefinite" begin="0s"/>
+    </circle>
+
+    <circle cx="400" cy="120" r="20" fill="#0B1117" stroke="#FFB800" stroke-width="1.5" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.15s" fill="freeze"/>
+    </circle>
+    <text x="400" y="121" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#FFB800" opacity="0">
+      FIREWALL
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.35s" fill="freeze"/>
+    </text>
+    <text x="400" y="132" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="6" fill="#7F95A5" opacity="0">
+      EDGE SECURITY
+      <animate attributeName="opacity" values="0;0.6" dur="0.3s" begin="0.44999999999999996s" fill="freeze"/>
+    </text>
+    <circle cx="400" cy="120" r="26" fill="none" stroke="#FFB800" stroke-width="0.5" opacity="0">
+      <animate attributeName="opacity" values="0;0.15;0" dur="3s" repeatCount="indefinite" begin="0.2s"/>
+      <animate attributeName="r" values="24;30;24" dur="3s" repeatCount="indefinite" begin="0.2s"/>
+    </circle>
+
+    <circle cx="400" cy="200" r="20" fill="#0B1117" stroke="#1479FF" stroke-width="1.5" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.3s" fill="freeze"/>
+    </circle>
+    <text x="400" y="201" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#1479FF" opacity="0">
+      LOAD BALANCER
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.5s" fill="freeze"/>
+    </text>
+    <text x="400" y="212" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="6" fill="#7F95A5" opacity="0">
+      HAPROXY
+      <animate attributeName="opacity" values="0;0.6" dur="0.3s" begin="0.6s" fill="freeze"/>
+    </text>
+    <circle cx="400" cy="200" r="26" fill="none" stroke="#1479FF" stroke-width="0.5" opacity="0">
+      <animate attributeName="opacity" values="0;0.15;0" dur="3s" repeatCount="indefinite" begin="0.4s"/>
+      <animate attributeName="r" values="24;30;24" dur="3s" repeatCount="indefinite" begin="0.4s"/>
+    </circle>
+
+    <circle cx="280" cy="280" r="18" fill="#0B1117" stroke="#1479FF" stroke-width="1.5" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.44999999999999996s" fill="freeze"/>
+    </circle>
+    <text x="280" y="281" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#1479FF" opacity="0">
+      WEB SRV 01
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.6499999999999999s" fill="freeze"/>
+    </text>
+    <text x="280" y="292" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="6" fill="#7F95A5" opacity="0">
+      APACHE
+      <animate attributeName="opacity" values="0;0.6" dur="0.3s" begin="0.75s" fill="freeze"/>
+    </text>
+    <circle cx="280" cy="280" r="24" fill="none" stroke="#1479FF" stroke-width="0.5" opacity="0">
+      <animate attributeName="opacity" values="0;0.15;0" dur="3s" repeatCount="indefinite" begin="0.6000000000000001s"/>
+      <animate attributeName="r" values="22;28;22" dur="3s" repeatCount="indefinite" begin="0.6000000000000001s"/>
+    </circle>
+
+    <circle cx="520" cy="280" r="18" fill="#0B1117" stroke="#1479FF" stroke-width="1.5" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.6s" fill="freeze"/>
+    </circle>
+    <text x="520" y="281" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#1479FF" opacity="0">
+      WEB SRV 02
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.8s" fill="freeze"/>
+    </text>
+    <text x="520" y="292" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="6" fill="#7F95A5" opacity="0">
+      APACHE
+      <animate attributeName="opacity" values="0;0.6" dur="0.3s" begin="0.8999999999999999s" fill="freeze"/>
+    </text>
+    <circle cx="520" cy="280" r="24" fill="none" stroke="#1479FF" stroke-width="0.5" opacity="0">
+      <animate attributeName="opacity" values="0;0.15;0" dur="3s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="r" values="22;28;22" dur="3s" repeatCount="indefinite" begin="0.8s"/>
+    </circle>
+
+    <circle cx="400" cy="360" r="20" fill="#0B1117" stroke="#00D9FF" stroke-width="1.5" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.75s" fill="freeze"/>
+    </circle>
+    <text x="400" y="361" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#00D9FF" opacity="0">
+      APP LAYER
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.95s" fill="freeze"/>
+    </text>
+    <text x="400" y="372" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="6" fill="#7F95A5" opacity="0">
+      APPLICATION
+      <animate attributeName="opacity" values="0;0.6" dur="0.3s" begin="1.05s" fill="freeze"/>
+    </text>
+    <circle cx="400" cy="360" r="26" fill="none" stroke="#00D9FF" stroke-width="0.5" opacity="0">
+      <animate attributeName="opacity" values="0;0.15;0" dur="3s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="r" values="24;30;24" dur="3s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+
+    <circle cx="400" cy="440" r="20" fill="#0B1117" stroke="#00FF88" stroke-width="1.5" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8999999999999999s" fill="freeze"/>
+    </circle>
+    <text x="400" y="441" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="8" fill="#00FF88" opacity="0">
+      DATABASE
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.0999999999999999s" fill="freeze"/>
+    </text>
+    <text x="400" y="452" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="6" fill="#7F95A5" opacity="0">
+      MySQL
+      <animate attributeName="opacity" values="0;0.6" dur="0.3s" begin="1.2s" fill="freeze"/>
+    </text>
+    <circle cx="400" cy="440" r="26" fill="none" stroke="#00FF88" stroke-width="0.5" opacity="0">
+      <animate attributeName="opacity" values="0;0.15;0" dur="3s" repeatCount="indefinite" begin="1.2000000000000002s"/>
+      <animate attributeName="r" values="24;30;24" dur="3s" repeatCount="indefinite" begin="1.2000000000000002s"/>
+    </circle>
+
+    <circle cx="400" cy="520" r="16" fill="#0B1117" stroke="#7F95A5" stroke-width="1.5" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.05s" fill="freeze"/>
+    </circle>
+    <text x="400" y="521" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5" opacity="0">
+      BACKUP
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.25s" fill="freeze"/>
+    </text>
+    <text x="400" y="532" text-anchor="middle" font-family="'SF Mono','Consolas',monospace" font-size="6" fill="#7F95A5" opacity="0">
+      MONITORING
+      <animate attributeName="opacity" values="0;0.6" dur="0.3s" begin="1.35s" fill="freeze"/>
+    </text>
+    <circle cx="400" cy="520" r="22" fill="none" stroke="#7F95A5" stroke-width="0.5" opacity="0">
+      <animate attributeName="opacity" values="0;0.15;0" dur="3s" repeatCount="indefinite" begin="1.4000000000000001s"/>
+      <animate attributeName="r" values="20;26;20" dur="3s" repeatCount="indefinite" begin="1.4000000000000001s"/>
+    </circle>
+  </g>
+
+  
+    <text x="770" y="108" text-anchor="end" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5" opacity="0.35" letter-spacing="0.5">LAYER 01 — EDGE SECURITY</text>
+
+    <text x="770" y="188" text-anchor="end" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5" opacity="0.35" letter-spacing="0.5">LAYER 02 — TRAFFIC MANAGEMENT</text>
+
+    <text x="770" y="268" text-anchor="end" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5" opacity="0.35" letter-spacing="0.5">LAYER 03 — WEB TIER</text>
+
+    <text x="770" y="348" text-anchor="end" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5" opacity="0.35" letter-spacing="0.5">LAYER 04 — APPLICATION</text>
+
+    <text x="770" y="428" text-anchor="end" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5" opacity="0.35" letter-spacing="0.5">LAYER 05 — DATA</text>
+
+    <text x="770" y="508" text-anchor="end" font-family="'SF Mono','Consolas',monospace" font-size="7" fill="#7F95A5" opacity="0.35" letter-spacing="0.5">LAYER 06 — MONITORING &amp; BACKUP</text>
+
+  <rect x="30" y="500" width="740" height="0.5" fill="url(#na-accent)" opacity="0.2"/>
+</svg>
