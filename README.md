@@ -54,19 +54,7 @@
 
 
 
-<div align="center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 20" width="800" height="20">
-  <defs>
-    <linearGradient id="sd-g" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0"/>
-      <stop offset="45%" style="stop-color:#00D9FF;stop-opacity:0.4"/>
-      <stop offset="50%" style="stop-color:#1479FF;stop-opacity:0.6"/>
-      <stop offset="55%" style="stop-color:#00D9FF;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#00D9FF;stop-opacity:0"/>
-    </linearGradient>
-  </defs>
-  <line x1="0" y1="10" x2="800" y2="10" stroke="url(#sd-g)" stroke-width="1"/>
-  <circle cx="400" cy="10" r="2.5" fill="#00D9FF" opacity="0.5"/>
-</svg></div>
+<div align="center"><img src="assets/section-divider.svg" alt="" width="800" height="20"/></div>
 
 
 
@@ -168,19 +156,7 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 
 
 
-<div align="center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 20" width="800" height="20">
-  <defs>
-    <linearGradient id="sd-g" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0"/>
-      <stop offset="45%" style="stop-color:#00D9FF;stop-opacity:0.4"/>
-      <stop offset="50%" style="stop-color:#1479FF;stop-opacity:0.6"/>
-      <stop offset="55%" style="stop-color:#00D9FF;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#00D9FF;stop-opacity:0"/>
-    </linearGradient>
-  </defs>
-  <line x1="0" y1="10" x2="800" y2="10" stroke="url(#sd-g)" stroke-width="1"/>
-  <circle cx="400" cy="10" r="2.5" fill="#00D9FF" opacity="0.5"/>
-</svg></div>
+<div align="center"><img src="assets/section-divider.svg" alt="" width="800" height="20"/></div>
 
 
 
@@ -210,19 +186,7 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 
 
 
-<div align="center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 20" width="800" height="20">
-  <defs>
-    <linearGradient id="sd-g" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0"/>
-      <stop offset="45%" style="stop-color:#00D9FF;stop-opacity:0.4"/>
-      <stop offset="50%" style="stop-color:#1479FF;stop-opacity:0.6"/>
-      <stop offset="55%" style="stop-color:#00D9FF;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#00D9FF;stop-opacity:0"/>
-    </linearGradient>
-  </defs>
-  <line x1="0" y1="10" x2="800" y2="10" stroke="url(#sd-g)" stroke-width="1"/>
-  <circle cx="400" cy="10" r="2.5" fill="#00D9FF" opacity="0.5"/>
-</svg></div>
+<div align="center"><img src="assets/section-divider.svg" alt="" width="800" height="20"/></div>
 
 
 
@@ -255,19 +219,7 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 
 
 
-<div align="center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 20" width="800" height="20">
-  <defs>
-    <linearGradient id="sd-g" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0"/>
-      <stop offset="45%" style="stop-color:#00D9FF;stop-opacity:0.4"/>
-      <stop offset="50%" style="stop-color:#1479FF;stop-opacity:0.6"/>
-      <stop offset="55%" style="stop-color:#00D9FF;stop-opacity:0.4"/>
-      <stop offset="100%" style="stop-color:#00D9FF;stop-opacity:0"/>
-    </linearGradient>
-  </defs>
-  <line x1="0" y1="10" x2="800" y2="10" stroke="url(#sd-g)" stroke-width="1"/>
-  <circle cx="400" cy="10" r="2.5" fill="#00D9FF" opacity="0.5"/>
-</svg></div>
+<div align="center"><img src="assets/section-divider.svg" alt="" width="800" height="20"/></div>
 
 
 
