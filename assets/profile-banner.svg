@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e17;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0d1321;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0e17;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#7b2ff7;stop-opacity:0.8" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-soft">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="400" fill="url(#bg-grad)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.04" stroke="#00d4ff" stroke-width="0.5">
+    <line x1="0" y1="50" x2="1280" y2="50"/><line x1="0" y1="100" x2="1280" y2="100"/>
+    <line x1="0" y1="150" x2="1280" y2="150"/><line x1="0" y1="200" x2="1280" y2="200"/>
+    <line x1="0" y1="250" x2="1280" y2="250"/><line x1="0" y1="300" x2="1280" y2="300"/>
+    <line x1="0" y1="350" x2="1280" y2="350"/>
+    <line x1="100" y1="0" x2="100" y2="400"/><line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="300" y1="0" x2="300" y2="400"/><line x1="400" y1="0" x2="400" y2="400"/>
+    <line x1="500" y1="0" x2="500" y2="400"/><line x1="600" y1="0" x2="600" y2="400"/>
+    <line x1="700" y1="0" x2="700" y2="400"/><line x1="800" y1="0" x2="800" y2="400"/>
+    <line x1="900" y1="0" x2="900" y2="400"/><line x1="1000" y1="0" x2="1000" y2="400"/>
+    <line x1="1100" y1="0" x2="1100" y2="400"/><line x1="1200" y1="0" x2="1200" y2="400"/>
+  </g>
+
+  <!-- Network nodes and connections -->
+  <g filter="url(#glow-soft)">
+    <!-- Connection lines -->
+    <g stroke="#00d4ff" stroke-width="1" opacity="0.15">
+      <line x1="150" y1="120" x2="350" y2="80"/>
+      <line x1="350" y1="80" x2="550" y2="140"/>
+      <line x1="550" y1="140" x2="750" y2="100"/>
+      <line x1="750" y1="100" x2="950" y2="160"/>
+      <line x1="950" y1="160" x2="1130" y2="120"/>
+      <line x1="150" y1="120" x2="250" y2="280"/>
+      <line x1="350" y1="80" x2="450" y2="300"/>
+      <line x1="550" y1="140" x2="650" y2="320"/>
+      <line x1="750" y1="100" x2="850" y2="310"/>
+      <line x1="950" y1="160" x2="1050" y2="290"/>
+      <line x1="250" y1="280" x2="450" y2="300"/>
+      <line x1="450" y1="300" x2="650" y2="320"/>
+      <line x1="650" y1="320" x2="850" y2="310"/>
+      <line x1="850" y1="310" x2="1050" y2="290"/>
+    </g>
+
+    <!-- Moving packets -->
+    <g>
+      <circle r="3" fill="#00d4ff" filter="url(#glow)" opacity="0.9">
+        <animateMotion dur="4s" repeatCount="indefinite" path="M150,120 L350,80 L550,140 L750,100 L950,160 L1130,120"/>
+      </circle>
+      <circle r="2" fill="#7b2ff7" filter="url(#glow)" opacity="0.7">
+        <animateMotion dur="5s" repeatCount="indefinite" path="M1130,120 L950,160 L750,100 L550,140 L350,80 L150,120"/>
+      </circle>
+      <circle r="2.5" fill="#00d4ff" filter="url(#glow)" opacity="0.6">
+        <animateMotion dur="6s" repeatCount="indefinite" path="M150,120 L250,280 L450,300 L650,320 L850,310 L1050,290"/>
+      </circle>
+    </g>
+
+    <!-- Nodes -->
+    <g>
+      <circle cx="150" cy="120" r="5" fill="#00d4ff" opacity="0.8">
+        <animate attributeName="r" values="5;7;5" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="350" cy="80" r="4" fill="#7b2ff7" opacity="0.7">
+        <animate attributeName="r" values="4;6;4" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.7;1;0.7" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="550" cy="140" r="6" fill="#00d4ff" opacity="0.9">
+        <animate attributeName="r" values="6;8;6" dur="3.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.9;1;0.9" dur="3.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="750" cy="100" r="4" fill="#7b2ff7" opacity="0.7">
+        <animate attributeName="r" values="4;6;4" dur="4.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="950" cy="160" r="5" fill="#00d4ff" opacity="0.8">
+        <animate attributeName="r" values="5;7;5" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1130" cy="120" r="4" fill="#7b2ff7" opacity="0.7">
+        <animate attributeName="r" values="4;6;4" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="250" cy="280" r="3" fill="#00d4ff" opacity="0.5"/>
+      <circle cx="450" cy="300" r="3" fill="#7b2ff7" opacity="0.5"/>
+      <circle cx="650" cy="320" r="3" fill="#00d4ff" opacity="0.5"/>
+      <circle cx="850" cy="310" r="3" fill="#7b2ff7" opacity="0.5"/>
+      <circle cx="1050" cy="290" r="3" fill="#00d4ff" opacity="0.5"/>
+    </g>
+  </g>
+
+  <!-- Scan line -->
+  <rect x="0" y="0" width="1280" height="2" fill="url(#accent)" opacity="0.3">
+    <animate attributeName="y" values="0;400;0" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Terminal cursor blink -->
+  <g transform="translate(60, 360)" opacity="0.6">
+    <text font-family="monospace" font-size="12" fill="#00d4ff" opacity="0.4">$&gt;_</text>
+    <rect x="85" y="-12" width="8" height="16" fill="#00d4ff" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Status indicators -->
+  <g transform="translate(1100, 355)" font-family="monospace" font-size="10" fill="#00d4ff" opacity="0.35">
+    <text>● SECURE</text>
+    <circle cx="-12" cy="-3" r="3" fill="#00ff88" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Name -->
+  <text x="640" y="175" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff" letter-spacing="6" filter="url(#glow)">
+    SAHAN CHATHUMINA
+  </text>
+
+  <!-- Accent line -->
+  <rect x="440" y="195" width="400" height="2" rx="1" fill="url(#accent)" opacity="0.6"/>
+
+  <!-- Tagline -->
+  <text x="640" y="235" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#8892a4" letter-spacing="4">
+    CYBERSECURITY  •  NETWORK ENGINEERING  •  LINUX  •  ETHICAL HACKING
+  </text>
+
+  <!-- Subtle bottom accent -->
+  <line x1="200" y1="380" x2="1080" y2="380" stroke="url(#accent)" stroke-width="1" opacity="0.15"/>
+</svg>
