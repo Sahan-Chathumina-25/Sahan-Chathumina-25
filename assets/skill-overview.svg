@@ -29,127 +29,154 @@
   <text x="350" y="32" text-anchor="middle" fill="#00D9FF" font-size="11" font-weight="700" letter-spacing="4" opacity="0.8">SKILL OVERVIEW</text>
   <line x1="250" y1="40" x2="450" y2="40" stroke="#00D9FF" stroke-width="1" opacity="0.3"/>
 
-  <!-- Circle 1: Cybersecurity -->
-  <g transform="translate(120,195)">
-    <circle cx="0" cy="0" r="72" fill="none" stroke="#1A2736" stroke-width="4"/>
-    <circle cx="0" cy="0" r="72" fill="none" stroke="url(#gCyber)" stroke-width="4"
-            stroke-dasharray="452" stroke-dashoffset="452" stroke-linecap="round"
+  <!-- ===== Circle 1: Cybersecurity (90%) ===== -->
+  <g transform="translate(120,190)">
+    <!-- Outer ring background -->
+    <circle cx="0" cy="0" r="72" fill="none" stroke="#1A2736" stroke-width="5"/>
+    <!-- Outer ring reveal — 90% of circumference = 407 -->
+    <circle cx="0" cy="0" r="72" fill="none" stroke="url(#gCyber)" stroke-width="5"
+            stroke-dasharray="407 452" stroke-dashoffset="452" stroke-linecap="round"
             transform="rotate(-90)">
-      <animate attributeName="stroke-dashoffset" from="452" to="0" dur="1.8s" fill="freeze" begin="0.2s"/>
+      <animate attributeName="stroke-dashoffset" from="452" to="0" dur="2s" fill="freeze" begin="0.3s" calcMode="spline" keySplines="0.4 0 0.2 1"/>
     </circle>
+    <!-- Inner ring background -->
     <circle cx="0" cy="0" r="58" fill="none" stroke="#1A2736" stroke-width="2"/>
+    <!-- Inner ring reveal -->
     <circle cx="0" cy="0" r="58" fill="none" stroke="#00D9FF" stroke-width="2"
-            stroke-dasharray="364" stroke-dashoffset="364" stroke-linecap="round" opacity="0.4"
+            stroke-dasharray="328 364" stroke-dashoffset="364" stroke-linecap="round" opacity="0.4"
             transform="rotate(-90)">
-      <animate attributeName="stroke-dashoffset" from="364" to="0" dur="1.5s" fill="freeze" begin="0.5s"/>
+      <animate attributeName="stroke-dashoffset" from="364" to="0" dur="1.8s" fill="freeze" begin="0.6s" calcMode="spline" keySplines="0.4 0 0.2 1"/>
     </circle>
-    <circle cx="0" cy="0" r="3" fill="#00D9FF" opacity="0">
+    <!-- Center glow -->
+    <circle cx="0" cy="0" r="20" fill="#00D9FF" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.08" dur="1s" fill="freeze" begin="1.0s"/>
+    </circle>
+    <!-- Percentage number -->
+    <text x="0" y="6" text-anchor="middle" fill="#EAF7FF" font-size="28" font-weight="700" opacity="0">
+      90
       <animate attributeName="opacity" from="0" to="1" dur="0.5s" fill="freeze" begin="1.2s"/>
-    </circle>
-    <text x="0" y="-8" text-anchor="middle" fill="#00D9FF" font-size="18" font-weight="700" opacity="0">C</text>
-    <text x="0" y="12" text-anchor="middle" fill="#7F95A5" font-size="8" font-weight="600" letter-spacing="1" opacity="0">SHIELD</text>
-    <animate attributeName="opacity" from="0" to="1" dur="0.01s" fill="freeze" begin="1.0s"/>
-    <set attributeName="opacity" to="1" begin="1.0s"/>
+    </text>
+    <text x="18" y="12" fill="#00D9FF" font-size="12" font-weight="600" opacity="0">
+      %
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" fill="freeze" begin="1.2s"/>
+    </text>
+    <!-- Category label -->
     <text x="0" y="95" text-anchor="middle" fill="#EAF7FF" font-size="11" font-weight="600" opacity="0">
       CYBERSECURITY
-      <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" begin="1.4s"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" begin="1.6s"/>
     </text>
+    <!-- Tech labels -->
     <text x="0" y="110" text-anchor="middle" fill="#7F95A5" font-size="7" opacity="0">
       Ethical Hacking · Network Security · CTF
-      <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" begin="1.6s"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" begin="1.8s"/>
     </text>
   </g>
 
-  <!-- Circle 2: Networking -->
-  <g transform="translate(265,195)">
-    <circle cx="0" cy="0" r="72" fill="none" stroke="#1A2736" stroke-width="4"/>
-    <circle cx="0" cy="0" r="72" fill="none" stroke="url(#gNet)" stroke-width="4"
-            stroke-dasharray="452" stroke-dashoffset="452" stroke-linecap="round"
+  <!-- ===== Circle 2: Networking (85%) ===== -->
+  <g transform="translate(265,190)">
+    <circle cx="0" cy="0" r="72" fill="none" stroke="#1A2736" stroke-width="5"/>
+    <!-- 85% = 384 -->
+    <circle cx="0" cy="0" r="72" fill="none" stroke="url(#gNet)" stroke-width="5"
+            stroke-dasharray="384 452" stroke-dashoffset="452" stroke-linecap="round"
             transform="rotate(-90)">
-      <animate attributeName="stroke-dashoffset" from="452" to="0" dur="1.8s" fill="freeze" begin="0.4s"/>
+      <animate attributeName="stroke-dashoffset" from="452" to="0" dur="2s" fill="freeze" begin="0.5s" calcMode="spline" keySplines="0.4 0 0.2 1"/>
     </circle>
     <circle cx="0" cy="0" r="58" fill="none" stroke="#1A2736" stroke-width="2"/>
     <circle cx="0" cy="0" r="58" fill="none" stroke="#1479FF" stroke-width="2"
-            stroke-dasharray="364" stroke-dashoffset="364" stroke-linecap="round" opacity="0.4"
+            stroke-dasharray="309 364" stroke-dashoffset="364" stroke-linecap="round" opacity="0.4"
             transform="rotate(-90)">
-      <animate attributeName="stroke-dashoffset" from="364" to="0" dur="1.5s" fill="freeze" begin="0.7s"/>
+      <animate attributeName="stroke-dashoffset" from="364" to="0" dur="1.8s" fill="freeze" begin="0.8s" calcMode="spline" keySplines="0.4 0 0.2 1"/>
     </circle>
-    <circle cx="0" cy="0" r="3" fill="#1479FF" opacity="0">
+    <circle cx="0" cy="0" r="20" fill="#1479FF" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.08" dur="1s" fill="freeze" begin="1.2s"/>
+    </circle>
+    <text x="0" y="6" text-anchor="middle" fill="#EAF7FF" font-size="28" font-weight="700" opacity="0">
+      85
       <animate attributeName="opacity" from="0" to="1" dur="0.5s" fill="freeze" begin="1.4s"/>
-    </circle>
-    <text x="0" y="-8" text-anchor="middle" fill="#1479FF" font-size="18" font-weight="700" opacity="0">N</text>
-    <text x="0" y="12" text-anchor="middle" fill="#7F95A5" font-size="8" font-weight="600" letter-spacing="1" opacity="0">NET</text>
-    <animate attributeName="opacity" from="0" to="1" dur="0.01s" fill="freeze" begin="1.2s"/>
-    <set attributeName="opacity" to="1" begin="1.2s"/>
+    </text>
+    <text x="18" y="12" fill="#1479FF" font-size="12" font-weight="600" opacity="0">
+      %
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" fill="freeze" begin="1.4s"/>
+    </text>
     <text x="0" y="95" text-anchor="middle" fill="#EAF7FF" font-size="11" font-weight="600" opacity="0">
       NETWORKING
-      <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" begin="1.6s"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" begin="1.8s"/>
     </text>
     <text x="0" y="110" text-anchor="middle" fill="#7F95A5" font-size="7" opacity="0">
       TCP/IP · DNS · DHCP · Routing · VPN
-      <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" begin="1.8s"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" begin="2.0s"/>
     </text>
   </g>
 
-  <!-- Circle 3: Linux & Systems -->
-  <g transform="translate(435,195)">
-    <circle cx="0" cy="0" r="72" fill="none" stroke="#1A2736" stroke-width="4"/>
-    <circle cx="0" cy="0" r="72" fill="none" stroke="url(#gLinux)" stroke-width="4"
-            stroke-dasharray="452" stroke-dashoffset="452" stroke-linecap="round"
+  <!-- ===== Circle 3: Linux & Systems (80%) ===== -->
+  <g transform="translate(435,190)">
+    <circle cx="0" cy="0" r="72" fill="none" stroke="#1A2736" stroke-width="5"/>
+    <!-- 80% = 362 -->
+    <circle cx="0" cy="0" r="72" fill="none" stroke="url(#gLinux)" stroke-width="5"
+            stroke-dasharray="362 452" stroke-dashoffset="452" stroke-linecap="round"
             transform="rotate(-90)">
-      <animate attributeName="stroke-dashoffset" from="452" to="0" dur="1.8s" fill="freeze" begin="0.6s"/>
+      <animate attributeName="stroke-dashoffset" from="452" to="0" dur="2s" fill="freeze" begin="0.7s" calcMode="spline" keySplines="0.4 0 0.2 1"/>
     </circle>
     <circle cx="0" cy="0" r="58" fill="none" stroke="#1A2736" stroke-width="2"/>
     <circle cx="0" cy="0" r="58" fill="none" stroke="#00FF88" stroke-width="2"
-            stroke-dasharray="364" stroke-dashoffset="364" stroke-linecap="round" opacity="0.4"
+            stroke-dasharray="291 364" stroke-dashoffset="364" stroke-linecap="round" opacity="0.4"
             transform="rotate(-90)">
-      <animate attributeName="stroke-dashoffset" from="364" to="0" dur="1.5s" fill="freeze" begin="0.9s"/>
+      <animate attributeName="stroke-dashoffset" from="364" to="0" dur="1.8s" fill="freeze" begin="1.0s" calcMode="spline" keySplines="0.4 0 0.2 1"/>
     </circle>
-    <circle cx="0" cy="0" r="3" fill="#00FF88" opacity="0">
+    <circle cx="0" cy="0" r="20" fill="#00FF88" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.08" dur="1s" fill="freeze" begin="1.4s"/>
+    </circle>
+    <text x="0" y="6" text-anchor="middle" fill="#EAF7FF" font-size="28" font-weight="700" opacity="0">
+      80
       <animate attributeName="opacity" from="0" to="1" dur="0.5s" fill="freeze" begin="1.6s"/>
-    </circle>
-    <text x="0" y="-8" text-anchor="middle" fill="#00FF88" font-size="18" font-weight="700" opacity="0">L</text>
-    <text x="0" y="12" text-anchor="middle" fill="#7F95A5" font-size="8" font-weight="600" letter-spacing="1" opacity="0">PENGUIN</text>
-    <animate attributeName="opacity" from="0" to="1" dur="0.01s" fill="freeze" begin="1.4s"/>
-    <set attributeName="opacity" to="1" begin="1.4s"/>
+    </text>
+    <text x="18" y="12" fill="#00FF88" font-size="12" font-weight="600" opacity="0">
+      %
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" fill="freeze" begin="1.6s"/>
+    </text>
     <text x="0" y="95" text-anchor="middle" fill="#EAF7FF" font-size="11" font-weight="600" opacity="0">
       LINUX &amp; SYSTEMS
-      <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" begin="1.8s"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" begin="2.0s"/>
     </text>
     <text x="0" y="110" text-anchor="middle" fill="#7F95A5" font-size="7" opacity="0">
       CentOS · SSH · Apache · Bash · SELinux
-      <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" begin="2.0s"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" begin="2.2s"/>
     </text>
   </g>
 
-  <!-- Circle 4: Full Stack Development -->
-  <g transform="translate(580,195)">
-    <circle cx="0" cy="0" r="72" fill="none" stroke="#1A2736" stroke-width="4"/>
-    <circle cx="0" cy="0" r="72" fill="none" stroke="url(#gFull)" stroke-width="4"
-            stroke-dasharray="452" stroke-dashoffset="452" stroke-linecap="round"
+  <!-- ===== Circle 4: Full Stack (75%) ===== -->
+  <g transform="translate(580,190)">
+    <circle cx="0" cy="0" r="72" fill="none" stroke="#1A2736" stroke-width="5"/>
+    <!-- 75% = 339 -->
+    <circle cx="0" cy="0" r="72" fill="none" stroke="url(#gFull)" stroke-width="5"
+            stroke-dasharray="339 452" stroke-dashoffset="452" stroke-linecap="round"
             transform="rotate(-90)">
-      <animate attributeName="stroke-dashoffset" from="452" to="0" dur="1.8s" fill="freeze" begin="0.8s"/>
+      <animate attributeName="stroke-dashoffset" from="452" to="0" dur="2s" fill="freeze" begin="0.9s" calcMode="spline" keySplines="0.4 0 0.2 1"/>
     </circle>
     <circle cx="0" cy="0" r="58" fill="none" stroke="#1A2736" stroke-width="2"/>
     <circle cx="0" cy="0" r="58" fill="none" stroke="#1479FF" stroke-width="2"
-            stroke-dasharray="364" stroke-dashoffset="364" stroke-linecap="round" opacity="0.4"
+            stroke-dasharray="273 364" stroke-dashoffset="364" stroke-linecap="round" opacity="0.4"
             transform="rotate(-90)">
-      <animate attributeName="stroke-dashoffset" from="364" to="0" dur="1.5s" fill="freeze" begin="1.1s"/>
+      <animate attributeName="stroke-dashoffset" from="364" to="0" dur="1.8s" fill="freeze" begin="1.2s" calcMode="spline" keySplines="0.4 0 0.2 1"/>
     </circle>
-    <circle cx="0" cy="0" r="3" fill="#1479FF" opacity="0">
+    <circle cx="0" cy="0" r="20" fill="#1479FF" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.08" dur="1s" fill="freeze" begin="1.6s"/>
+    </circle>
+    <text x="0" y="6" text-anchor="middle" fill="#EAF7FF" font-size="28" font-weight="700" opacity="0">
+      75
       <animate attributeName="opacity" from="0" to="1" dur="0.5s" fill="freeze" begin="1.8s"/>
-    </circle>
-    <text x="0" y="-8" text-anchor="middle" fill="#1479FF" font-size="16" font-weight="700" opacity="0">&lt;/&gt;</text>
-    <text x="0" y="12" text-anchor="middle" fill="#7F95A5" font-size="8" font-weight="600" letter-spacing="1" opacity="0">CODE</text>
-    <animate attributeName="opacity" from="0" to="1" dur="0.01s" fill="freeze" begin="1.6s"/>
-    <set attributeName="opacity" to="1" begin="1.6s"/>
+    </text>
+    <text x="18" y="12" fill="#1479FF" font-size="12" font-weight="600" opacity="0">
+      %
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" fill="freeze" begin="1.8s"/>
+    </text>
     <text x="0" y="95" text-anchor="middle" fill="#EAF7FF" font-size="11" font-weight="600" opacity="0">
       FULL STACK
-      <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" begin="2.0s"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" begin="2.2s"/>
     </text>
     <text x="0" y="110" text-anchor="middle" fill="#7F95A5" font-size="7" opacity="0">
       WordPress · HTML · CSS · JS · PHP · MySQL
-      <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" begin="2.2s"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" fill="freeze" begin="2.4s"/>
     </text>
   </g>
 
