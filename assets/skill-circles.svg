@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 170" width="620" height="170">
+  <g transform="translate(0, 0)">
+  <defs>
+    <linearGradient id="sc-Cybersecurity" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1479FF;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="sc-glow-Cybersecurity">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <circle cx="70" cy="70" r="58" fill="none" stroke="#1A2736" stroke-width="6" opacity="0.5"/>
+
+  <circle cx="70" cy="70" r="58" fill="none" stroke="url(#sc-Cybersecurity)" stroke-width="6" stroke-linecap="round" stroke-dasharray="364.424747816416" stroke-dashoffset="200.4336112990288" transform="rotate(-90 70 70)" filter="url(#sc-glow-Cybersecurity)">
+    <animate attributeName="stroke-dashoffset" from="364.424747816416" to="200.4336112990288" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </circle>
+
+  <text x="70" y="72" text-anchor="middle" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="22" font-weight="700" fill="#EAF7FF">45%</text>
+
+  <text x="70" y="160" text-anchor="middle" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="12" fill="#7F95A5" letter-spacing="0.5">Cybersecurity</text>
+</g>
+  <g transform="translate(160, 0)">
+  <defs>
+    <linearGradient id="sc-Networking" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1479FF;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="sc-glow-Networking">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <circle cx="70" cy="70" r="58" fill="none" stroke="#1A2736" stroke-width="6" opacity="0.5"/>
+
+  <circle cx="70" cy="70" r="58" fill="none" stroke="url(#sc-Networking)" stroke-width="6" stroke-linecap="round" stroke-dasharray="364.424747816416" stroke-dashoffset="182.212373908208" transform="rotate(-90 70 70)" filter="url(#sc-glow-Networking)">
+    <animate attributeName="stroke-dashoffset" from="364.424747816416" to="182.212373908208" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </circle>
+
+  <text x="70" y="72" text-anchor="middle" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="22" font-weight="700" fill="#EAF7FF">50%</text>
+
+  <text x="70" y="160" text-anchor="middle" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="12" fill="#7F95A5" letter-spacing="0.5">Networking</text>
+</g>
+  <g transform="translate(320, 0)">
+  <defs>
+    <linearGradient id="sc-Linux" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1479FF;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="sc-glow-Linux">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <circle cx="70" cy="70" r="58" fill="none" stroke="#1A2736" stroke-width="6" opacity="0.5"/>
+
+  <circle cx="70" cy="70" r="58" fill="none" stroke="url(#sc-Linux)" stroke-width="6" stroke-linecap="round" stroke-dasharray="364.424747816416" stroke-dashoffset="163.9911365173872" transform="rotate(-90 70 70)" filter="url(#sc-glow-Linux)">
+    <animate attributeName="stroke-dashoffset" from="364.424747816416" to="163.9911365173872" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </circle>
+
+  <text x="70" y="72" text-anchor="middle" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="22" font-weight="700" fill="#EAF7FF">55%</text>
+
+  <text x="70" y="160" text-anchor="middle" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="12" fill="#7F95A5" letter-spacing="0.5">Linux</text>
+</g>
+  <g transform="translate(480, 0)">
+  <defs>
+    <linearGradient id="sc-Programming" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1479FF;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="sc-glow-Programming">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <circle cx="70" cy="70" r="58" fill="none" stroke="#1A2736" stroke-width="6" opacity="0.5"/>
+
+  <circle cx="70" cy="70" r="58" fill="none" stroke="url(#sc-Programming)" stroke-width="6" stroke-linecap="round" stroke-dasharray="364.424747816416" stroke-dashoffset="236.8760860806704" transform="rotate(-90 70 70)" filter="url(#sc-glow-Programming)">
+    <animate attributeName="stroke-dashoffset" from="364.424747816416" to="236.8760860806704" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </circle>
+
+  <text x="70" y="72" text-anchor="middle" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="22" font-weight="700" fill="#EAF7FF">35%</text>
+
+  <text x="70" y="160" text-anchor="middle" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="12" fill="#7F95A5" letter-spacing="0.5">Programming</text>
+</g>
+</svg>

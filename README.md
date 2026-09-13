@@ -1,12 +1,26 @@
 <div align="center">
 
-<img src="assets/profile-banner.svg" alt="Sahan Chathumina - Banner" width="100%"/>
+<img src="assets/profile-banner.svg" alt="Sahan Chathumina — Cybersecurity Portfolio Banner" width="100%"/>
 
-# Sahan Chathumina
+</div>
 
-### Cybersecurity | Network Engineering | Linux | Ethical Hacking
+<div align="center">
 
-<img src="assets/profile-animation.svg" alt="Network animation" width="600"/>
+```
+┌─────────────────────────────────────────────────────┐
+│  $ whoami                                            │
+│  sahan.chathumina@cyberlab                        │
+│                                                      │
+│  $ focus                                             │
+│  Cybersecurity                                       │
+│  Network Engineering                                 │
+│  Linux                                               │
+│  Ethical Hacking                                     │
+│                                                      │
+│  $ status                                            │
+│  ● ONLINE  •  LEARNING  •  BUILDING                  │
+└─────────────────────────────────────────────────────┘
+```
 
 </div>
 
@@ -25,7 +39,15 @@ I am an undergraduate studying Ethical Hacking & Network Security with a passion
 
 </div>
 
-## Skills
+<div align="center">
+
+## Skill Overview
+
+<img src="assets/skill-circles.svg" alt="Skill proficiency percentages" width="620"/>
+
+</div>
+
+## Skills & Technologies
 
 ### Cybersecurity
 
@@ -35,11 +57,11 @@ I am an undergraduate studying Ethical Hacking & Network Security with a passion
 
 ![TCP/IP](https://img.shields.io/badge/TCP%2FIP-Practicing-cyan) ![DNS](https://img.shields.io/badge/DNS-Practicing-cyan) ![DHCP](https://img.shields.io/badge/DHCP-Practicing-cyan) ![HTTP/HTTPS](https://img.shields.io/badge/HTTP%2FHTTPS-Practicing-cyan) ![Routing & Switching](https://img.shields.io/badge/Routing%20%26%20Switching-Learning-blue) ![VLAN](https://img.shields.io/badge/VLAN-Learning-blue) ![Subnetting](https://img.shields.io/badge/Subnetting-Practicing-cyan) ![Firewalls](https://img.shields.io/badge/Firewalls-Learning-blue) ![VPN](https://img.shields.io/badge/VPN-Learning-blue) ![Cisco Networking](https://img.shields.io/badge/Cisco%20Networking-Learning-blue)
 
-### Linux & System Administration
+### Linux & Systems
 
 ![Linux](https://img.shields.io/badge/Linux-Practicing-cyan) ![CentOS](https://img.shields.io/badge/CentOS-Practicing-cyan) ![Rocky Linux](https://img.shields.io/badge/Rocky%20Linux-Learning-blue) ![SSH](https://img.shields.io/badge/SSH-Practicing-cyan) ![Apache](https://img.shields.io/badge/Apache-Practicing-cyan) ![BIND DNS](https://img.shields.io/badge/BIND%20DNS-Practicing-cyan) ![firewalld](https://img.shields.io/badge/firewalld-Practicing-cyan) ![systemd](https://img.shields.io/badge/systemd-Practicing-cyan) ![Bash](https://img.shields.io/badge/Bash-Practicing-cyan) ![Server Hardening](https://img.shields.io/badge/Server%20Hardening-Learning-blue) ![SELinux](https://img.shields.io/badge/SELinux-Learning-blue) ![Auditd](https://img.shields.io/badge/Auditd-Learning-blue)
 
-### Programming & Development
+### Development
 
 ![Python](https://img.shields.io/badge/Python-Practicing-cyan) ![Bash](https://img.shields.io/badge/Bash-Practicing-cyan) ![JavaScript](https://img.shields.io/badge/JavaScript-Learning-blue) ![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-Practicing-cyan) ![PHP](https://img.shields.io/badge/PHP-Learning-blue) ![MySQL](https://img.shields.io/badge/MySQL-Learning-blue)
 
@@ -49,39 +71,71 @@ I am an undergraduate studying Ethical Hacking & Network Security with a passion
 
 
 
+
+
+<div align="center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 20" width="800" height="20">
+  <defs>
+    <linearGradient id="sd-g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0"/>
+      <stop offset="45%" style="stop-color:#00D9FF;stop-opacity:0.4"/>
+      <stop offset="50%" style="stop-color:#1479FF;stop-opacity:0.6"/>
+      <stop offset="55%" style="stop-color:#00D9FF;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#00D9FF;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="10" x2="800" y2="10" stroke="url(#sd-g)" stroke-width="1"/>
+  <circle cx="400" cy="10" r="2.5" fill="#00D9FF" opacity="0.5"/>
+</svg></div>
+
+
+
+<div align="center">
+
+## Network Architecture
+
+<img src="assets/network-topology.svg" alt="Network topology diagram" width="600"/>
+
+</div>
+
 ## Featured Projects
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
+> **PROJECT 01**
+
 ### Network Security Lab
 
 Hands-on environment for practicing network security, Linux administration, DNS, DHCP, and server hardening.
 
-![Linux](https://img.shields.io/badge/Linux-grey?style=flat) ![Networking](https://img.shields.io/badge/Networking-grey?style=flat) ![DNS](https://img.shields.io/badge/DNS-grey?style=flat) ![DHCP](https://img.shields.io/badge/DHCP-grey?style=flat) ![Bash](https://img.shields.io/badge/Bash-grey?style=flat)
+<sub>Linux • Networking • DNS • DHCP • Bash</sub>
 
 ![In Progress](https://img.shields.io/badge/In%20Progress-yellow)
 
 </td>
 <td width="33%" valign="top">
+
+> **PROJECT 02**
 
 ### Linux Server Hardening
 
 Server hardening lab covering SSH security, firewall rules, SELinux, audit logging, and system monitoring.
 
-![Linux](https://img.shields.io/badge/Linux-grey?style=flat) ![SSH](https://img.shields.io/badge/SSH-grey?style=flat) ![firewalld](https://img.shields.io/badge/firewalld-grey?style=flat) ![SELinux](https://img.shields.io/badge/SELinux-grey?style=flat) ![Auditd](https://img.shields.io/badge/Auditd-grey?style=flat)
+<sub>Linux • SSH • firewalld • SELinux • Auditd</sub>
 
 ![In Progress](https://img.shields.io/badge/In%20Progress-yellow)
 
 </td>
 <td width="33%" valign="top">
 
+> **PROJECT 03**
+
 ### DNS & DHCP Lab
 
 Configured BIND DNS and ISC DHCP servers on CentOS with zone transfers and dynamic updates.
 
-![Linux](https://img.shields.io/badge/Linux-grey?style=flat) ![BIND](https://img.shields.io/badge/BIND-grey?style=flat) ![DHCP](https://img.shields.io/badge/DHCP-grey?style=flat) ![CentOS](https://img.shields.io/badge/CentOS-grey?style=flat) ![Networking](https://img.shields.io/badge/Networking-grey?style=flat)
+<sub>Linux • BIND • DHCP • CentOS • Networking</sub>
 
 ![Completed](https://img.shields.io/badge/Completed-brightgreen)
 
@@ -90,33 +144,39 @@ Configured BIND DNS and ISC DHCP servers on CentOS with zone transfers and dynam
 <tr>
 <td width="33%" valign="top">
 
+> **PROJECT 04**
+
 ### Python Security Scripts
 
 Collection of Python scripts for network scanning, port detection, and security automation tasks.
 
-![Python](https://img.shields.io/badge/Python-grey?style=flat) ![Networking](https://img.shields.io/badge/Networking-grey?style=flat) ![Security](https://img.shields.io/badge/Security-grey?style=flat)
+<sub>Python • Networking • Security</sub>
 
 ![In Progress](https://img.shields.io/badge/In%20Progress-yellow)
 
 </td>
 <td width="33%" valign="top">
 
+> **PROJECT 05**
+
 ### Firewall Configuration Lab
 
 Practicing firewall rules with firewalld, iptables, and network segmentation scenarios.
 
-![Linux](https://img.shields.io/badge/Linux-grey?style=flat) ![firewalld](https://img.shields.io/badge/firewalld-grey?style=flat) ![Networking](https://img.shields.io/badge/Networking-grey?style=flat) ![Security](https://img.shields.io/badge/Security-grey?style=flat)
+<sub>Linux • firewalld • Networking • Security</sub>
 
 ![Learning](https://img.shields.io/badge/Learning-blue)
 
 </td>
 <td width="33%" valign="top">
 
+> **PROJECT 06**
+
 ### Web Application Security Lab
 
 Hands-on practice with common web vulnerabilities in a controlled lab environment.
 
-![Web Security](https://img.shields.io/badge/Web%20Security-grey?style=flat) ![HTTP](https://img.shields.io/badge/HTTP-grey?style=flat) ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-grey?style=flat)
+<sub>Web Security • HTTP • Burp Suite</sub>
 
 ![Learning](https://img.shields.io/badge/Learning-blue)
 
@@ -131,9 +191,9 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 
 Hands-on environment for practicing network security, Linux administration, DNS, DHCP, and server hardening.
 
-**Tech:** ![Linux](https://img.shields.io/badge/Linux-blueviolet?style=flat) ![Networking](https://img.shields.io/badge/Networking-blueviolet?style=flat) ![DNS](https://img.shields.io/badge/DNS-blueviolet?style=flat) ![DHCP](https://img.shields.io/badge/DHCP-blueviolet?style=flat) ![Bash](https://img.shields.io/badge/Bash-blueviolet?style=flat)
+> **Tech:** Linux • Networking • DNS • DHCP • Bash
 
-**Status:** ![In Progress](https://img.shields.io/badge/In%20Progress-yellow)
+> **Status:** ![In Progress](https://img.shields.io/badge/In%20Progress-yellow)
 
 ---
 
@@ -141,9 +201,9 @@ Hands-on environment for practicing network security, Linux administration, DNS,
 
 Server hardening lab covering SSH security, firewall rules, SELinux, audit logging, and system monitoring.
 
-**Tech:** ![Linux](https://img.shields.io/badge/Linux-blueviolet?style=flat) ![SSH](https://img.shields.io/badge/SSH-blueviolet?style=flat) ![firewalld](https://img.shields.io/badge/firewalld-blueviolet?style=flat) ![SELinux](https://img.shields.io/badge/SELinux-blueviolet?style=flat) ![Auditd](https://img.shields.io/badge/Auditd-blueviolet?style=flat)
+> **Tech:** Linux • SSH • firewalld • SELinux • Auditd
 
-**Status:** ![In Progress](https://img.shields.io/badge/In%20Progress-yellow)
+> **Status:** ![In Progress](https://img.shields.io/badge/In%20Progress-yellow)
 
 ---
 
@@ -151,9 +211,9 @@ Server hardening lab covering SSH security, firewall rules, SELinux, audit loggi
 
 Configured BIND DNS and ISC DHCP servers on CentOS with zone transfers and dynamic updates.
 
-**Tech:** ![Linux](https://img.shields.io/badge/Linux-blueviolet?style=flat) ![BIND](https://img.shields.io/badge/BIND-blueviolet?style=flat) ![DHCP](https://img.shields.io/badge/DHCP-blueviolet?style=flat) ![CentOS](https://img.shields.io/badge/CentOS-blueviolet?style=flat) ![Networking](https://img.shields.io/badge/Networking-blueviolet?style=flat)
+> **Tech:** Linux • BIND • DHCP • CentOS • Networking
 
-**Status:** ![Completed](https://img.shields.io/badge/Completed-brightgreen)
+> **Status:** ![Completed](https://img.shields.io/badge/Completed-brightgreen)
 
 ---
 
@@ -161,9 +221,9 @@ Configured BIND DNS and ISC DHCP servers on CentOS with zone transfers and dynam
 
 Collection of Python scripts for network scanning, port detection, and security automation tasks.
 
-**Tech:** ![Python](https://img.shields.io/badge/Python-blueviolet?style=flat) ![Networking](https://img.shields.io/badge/Networking-blueviolet?style=flat) ![Security](https://img.shields.io/badge/Security-blueviolet?style=flat)
+> **Tech:** Python • Networking • Security
 
-**Status:** ![In Progress](https://img.shields.io/badge/In%20Progress-yellow)
+> **Status:** ![In Progress](https://img.shields.io/badge/In%20Progress-yellow)
 
 ---
 
@@ -171,9 +231,9 @@ Collection of Python scripts for network scanning, port detection, and security 
 
 Practicing firewall rules with firewalld, iptables, and network segmentation scenarios.
 
-**Tech:** ![Linux](https://img.shields.io/badge/Linux-blueviolet?style=flat) ![firewalld](https://img.shields.io/badge/firewalld-blueviolet?style=flat) ![Networking](https://img.shields.io/badge/Networking-blueviolet?style=flat) ![Security](https://img.shields.io/badge/Security-blueviolet?style=flat)
+> **Tech:** Linux • firewalld • Networking • Security
 
-**Status:** ![Learning](https://img.shields.io/badge/Learning-blue)
+> **Status:** ![Learning](https://img.shields.io/badge/Learning-blue)
 
 ---
 
@@ -181,21 +241,40 @@ Practicing firewall rules with firewalld, iptables, and network segmentation sce
 
 Hands-on practice with common web vulnerabilities in a controlled lab environment.
 
-**Tech:** ![Web Security](https://img.shields.io/badge/Web%20Security-blueviolet?style=flat) ![HTTP](https://img.shields.io/badge/HTTP-blueviolet?style=flat) ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-blueviolet?style=flat)
+> **Tech:** Web Security • HTTP • Burp Suite
 
-**Status:** ![Learning](https://img.shields.io/badge/Learning-blue)
+> **Status:** ![Learning](https://img.shields.io/badge/Learning-blue)
 
 ---
 
 
 
-## CTF Portfolio
+
+
+<div align="center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 20" width="800" height="20">
+  <defs>
+    <linearGradient id="sd-g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0"/>
+      <stop offset="45%" style="stop-color:#00D9FF;stop-opacity:0.4"/>
+      <stop offset="50%" style="stop-color:#1479FF;stop-opacity:0.6"/>
+      <stop offset="55%" style="stop-color:#00D9FF;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#00D9FF;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="10" x2="800" y2="10" stroke="url(#sd-g)" stroke-width="1"/>
+  <circle cx="400" cy="10" r="2.5" fill="#00D9FF" opacity="0.5"/>
+</svg></div>
+
+
+
+## Cybersecurity Lab
 
 | Platform | Category | Challenge | Difficulty | Skills |
 |----------|----------|-----------|------------|--------|
 | TryHackMe | Web Exploitation | Various web security challenges | Easy - Medium | SQL Injection, XSS, Web Enumeration |
 | TryHackMe | Forensics | File analysis and memory forensics | Easy | File Analysis, Memory Forensics, Log Analysis |
 | PicoCTF | Cryptography | Basic cryptography challenges | Easy - Medium | Encoding, Basic Crypto, Problem Solving |
+
 
 
 ## Linux Labs
@@ -221,19 +300,77 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 | VLAN Configuration Lab | Networking, VLAN, Switching | Configure VLANs, trunk ports, and inter-VLAN routing | ![Planned](https://img.shields.io/badge/Planned-lightgrey) |
 
 
+
+
+<div align="center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 20" width="800" height="20">
+  <defs>
+    <linearGradient id="sd-g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0"/>
+      <stop offset="45%" style="stop-color:#00D9FF;stop-opacity:0.4"/>
+      <stop offset="50%" style="stop-color:#1479FF;stop-opacity:0.6"/>
+      <stop offset="55%" style="stop-color:#00D9FF;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#00D9FF;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="10" x2="800" y2="10" stroke="url(#sd-g)" stroke-width="1"/>
+  <circle cx="400" cy="10" r="2.5" fill="#00D9FF" opacity="0.5"/>
+</svg></div>
+
+
+
+<div align="center">
+
 ## Certifications & Courses
 
-- **Red Hat System Administration I** — Red Hat ![Completed](https://img.shields.io/badge/Completed-brightgreen) (2026)
-- **CCNA: Introduction to Networks** — Cisco ![In Progress](https://img.shields.io/badge/In%20Progress-yellow) (2026)
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 170" width="600" height="170">
+  <line x1="60" y1="20" x2="60" y2="100" stroke="#1A2736" stroke-width="1.5" opacity="0.4"/>
+  
+  <circle cx="60" cy="30" r="6" fill="#05070A" stroke="#00FF88" stroke-width="2"/>
+  <circle cx="60" cy="30" r="2.5" fill="#00FF88">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <text x="80" y="22" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="13" font-weight="600" fill="#00FF88">2026</text>
+  <text x="80" y="38" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="14" fill="#EAF7FF">Red Hat System Administration I</text>
+  <text x="80" y="54" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="12" fill="#7F95A5">Red Hat</text>
+  <circle cx="60" cy="100" r="6" fill="#05070A" stroke="#00D9FF" stroke-width="2"/>
+  <circle cx="60" cy="100" r="2.5" fill="#00D9FF">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+  <text x="80" y="92" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="13" font-weight="600" fill="#00D9FF">2026</text>
+  <text x="80" y="108" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="14" fill="#EAF7FF">CCNA: Introduction to Networks</text>
+  <text x="80" y="124" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="12" fill="#7F95A5">Cisco</text>
+</svg>
 
+</div>
+
+<div align="center">
 
 ## Education
 
-- **BSc (Hons) in Ethical Hacking & Network Security** — University ![In Progress](https://img.shields.io/badge/In%20Progress-yellow) (2024 - Present)
-- **Higher National Diploma in Network Engineering** — Institute of Network Engineering ![In Progress](https://img.shields.io/badge/In%20Progress-yellow) (2023 - Present)
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 170" width="600" height="170">
+  <line x1="60" y1="20" x2="60" y2="100" stroke="#1A2736" stroke-width="1.5" opacity="0.4"/>
+  
+  <circle cx="60" cy="30" r="6" fill="#05070A" stroke="#00D9FF" stroke-width="2"/>
+  <circle cx="60" cy="30" r="2.5" fill="#00D9FF">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <text x="80" y="22" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="13" font-weight="600" fill="#00D9FF">2024 - Present</text>
+  <text x="80" y="38" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="14" fill="#EAF7FF">BSc (Hons) in Ethical Hacking &amp; Network Security</text>
+  <text x="80" y="54" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="12" fill="#7F95A5">University</text>
+  <circle cx="60" cy="100" r="6" fill="#05070A" stroke="#00D9FF" stroke-width="2"/>
+  <circle cx="60" cy="100" r="2.5" fill="#00D9FF">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+  <text x="80" y="92" font-family="'SF Mono','Cascadia Code','Consolas',monospace" font-size="13" font-weight="600" fill="#00D9FF">2023 - Present</text>
+  <text x="80" y="108" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="14" fill="#EAF7FF">Higher National Diploma in Network Engineering</text>
+  <text x="80" y="124" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="12" fill="#7F95A5">Institute of Network Engineering</text>
+</svg>
 
+</div>
 
 ## Currently Learning
+
+> ● **ACTIVE**
 
 - Cybersecurity Fundamentals
 - Network Security
@@ -243,13 +380,31 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 - Python for Security Automation
 - Cloud & Infrastructure Security
 
+
+
+<div align="center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 20" width="800" height="20">
+  <defs>
+    <linearGradient id="sd-g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0"/>
+      <stop offset="45%" style="stop-color:#00D9FF;stop-opacity:0.4"/>
+      <stop offset="50%" style="stop-color:#1479FF;stop-opacity:0.6"/>
+      <stop offset="55%" style="stop-color:#00D9FF;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#00D9FF;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="10" x2="800" y2="10" stroke="url(#sd-g)" stroke-width="1"/>
+  <circle cx="400" cy="10" r="2.5" fill="#00D9FF" opacity="0.5"/>
+</svg></div>
+
+
+
 ## GitHub Statistics
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Sahan-Chathumina-25&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Sahan-Chathumina-25&show_icons=true&theme=dark&hide_border=true&bg_color=%2305070A&title_color=%2300D9FF&text_color=%23EAF7FF" alt="GitHub Stats" height="165"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahan-Chathumina-25&layout=compact&theme=dark&hide_border=true" alt="Top Languages" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahan-Chathumina-25&layout=compact&theme=dark&hide_border=true&bg_color=%2305070A&title_color=%2300D9FF&text_color=%23EAF7FF" alt="Top Languages" height="165"/>
 
 </div>
 
@@ -258,12 +413,16 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 
 ## Connect With Me
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sahan-Chathumina-25)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Sahan-Chathumina-25)
 
 </div>
 
 <div align="center">
 
-<img src="assets/profile-animation.svg" alt="Footer animation" width="400"/>
+<img src="assets/footer-animation.svg" alt="Footer animation" width="500"/>
+
+### <sub>SYSTEM STATUS: ONLINE</sub>
+
+**BUILD  •  LEARN  •  SECURE**
 
 </div>
