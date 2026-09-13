@@ -8,7 +8,23 @@
 
 ## About Me
 
-<img src="assets/about-me.svg" alt="About Me — Cybersecurity, Networking, Linux, Full Stack Development" width="800"/>
+<img src="assets/about-me.svg" alt="About Me — Cybersecurity, Networking, Linux, Full Stack Development" width="700"/>
+
+</div>
+
+I'm Sahan Chathumina, a cybersecurity and network engineering student focused on building practical experience across network security, Linux administration, system administration and web development.
+
+My main technical interests include cybersecurity, network infrastructure, ethical hacking, Linux server administration, network troubleshooting and secure system configuration.
+
+I enjoy building and testing practical lab environments rather than learning only through theory. My work includes networking, DNS, DHCP, firewalls, SSH, Apache, Linux hardening, security testing and network analysis.
+
+Alongside infrastructure and security, I'm developing my Full Stack Development skills, with WordPress as my main focus, supported by technologies such as HTML, CSS, JavaScript, PHP and MySQL.
+
+I'm continuously learning, experimenting with new technologies and turning what I learn into practical projects and labs. My long-term goal is to build strong expertise across cybersecurity, networking, systems and modern web development.
+
+<div align="center">
+
+`BUILD` · `LEARN` · `SECURE`
 
 </div>
 
@@ -56,7 +72,7 @@
 
 ## Network Architecture
 
-<img src="assets/network-architecture-new.svg" alt="Network architecture — Internet, Firewall, HAProxy, Web Servers, Application, Database" width="800"/>
+<img src="assets/network-architecture.svg" alt="Network architecture — Internet, Firewall, HAProxy, Web Servers, Application, Database with animated traffic flow" width="800"/>
 
 </div>
 
@@ -72,7 +88,7 @@
 
 Hands-on environment for practicing network security, Linux administration, DNS, DHCP, and server hardening.
 
-<sub>Linux • Networking • DNS • DHCP • Bash</sub>
+<sub>Linux · Networking · DNS · DHCP · Bash</sub>
 
 ![In Progress](https://img.shields.io/badge/In%20Progress-yellow)
 
@@ -85,7 +101,7 @@ Hands-on environment for practicing network security, Linux administration, DNS,
 
 Server hardening lab covering SSH security, firewall rules, SELinux, audit logging, and system monitoring.
 
-<sub>Linux • SSH • firewalld • SELinux • Auditd</sub>
+<sub>Linux · SSH · firewalld · SELinux · Auditd</sub>
 
 ![In Progress](https://img.shields.io/badge/In%20Progress-yellow)
 
@@ -98,7 +114,7 @@ Server hardening lab covering SSH security, firewall rules, SELinux, audit loggi
 
 Configured BIND DNS and ISC DHCP servers on CentOS with zone transfers and dynamic updates.
 
-<sub>Linux • BIND • DHCP • CentOS • Networking</sub>
+<sub>Linux · BIND · DHCP · CentOS · Networking</sub>
 
 ![Completed](https://img.shields.io/badge/Completed-brightgreen)
 
@@ -113,7 +129,7 @@ Configured BIND DNS and ISC DHCP servers on CentOS with zone transfers and dynam
 
 Collection of Python scripts for network scanning, port detection, and security automation tasks.
 
-<sub>Python • Networking • Security</sub>
+<sub>Python · Networking · Security</sub>
 
 ![In Progress](https://img.shields.io/badge/In%20Progress-yellow)
 
@@ -126,7 +142,7 @@ Collection of Python scripts for network scanning, port detection, and security 
 
 Practicing firewall rules with firewalld, iptables, and network segmentation scenarios.
 
-<sub>Linux • firewalld • Networking • Security</sub>
+<sub>Linux · firewalld · Networking · Security</sub>
 
 ![Learning](https://img.shields.io/badge/Learning-blue)
 
@@ -139,7 +155,7 @@ Practicing firewall rules with firewalld, iptables, and network segmentation sce
 
 Hands-on practice with common web vulnerabilities in a controlled lab environment.
 
-<sub>Web Security • HTTP • Burp Suite</sub>
+<sub>Web Security · HTTP · Burp Suite</sub>
 
 ![Learning](https://img.shields.io/badge/Learning-blue)
 
@@ -225,6 +241,6 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 
 ## Footer
 
-<img src="assets/footer-cinematic.svg" alt="Footer — BUILD • LEARN • SECURE" width="600"/>
+<img src="assets/footer-cinematic.svg" alt="Footer — BUILD · LEARN · SECURE" width="600"/>
 
 </div>
