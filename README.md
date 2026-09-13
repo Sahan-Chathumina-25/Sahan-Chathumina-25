@@ -8,7 +8,7 @@
 
 ## About Me
 
-<img src="assets/about-card.svg" alt="About Me — Identity panel with profile summary, focus areas, and statistics" width="800"/>
+<img src="assets/about-me.svg" alt="About Me — Cybersecurity, Networking, Linux, Full Stack Development" width="800"/>
 
 </div>
 
@@ -24,7 +24,7 @@
 
 ## Skill Overview
 
-<img src="assets/skill-circles.svg" alt="Skill proficiency percentages — Cybersecurity, Networking, Linux, Full Stack Development" width="680"/>
+<img src="assets/skill-overview.svg" alt="Skill overview — Cybersecurity, Networking, Linux, Full Stack Development" width="700"/>
 
 </div>
 
@@ -50,19 +50,13 @@
 
 ![Git](https://img.shields.io/badge/Git-Practicing-cyan) ![GitHub](https://img.shields.io/badge/GitHub-Practicing-cyan) ![Wireshark](https://img.shields.io/badge/Wireshark-Learning-blue) ![Nmap](https://img.shields.io/badge/Nmap-Learning-blue) ![Metasploit](https://img.shields.io/badge/Metasploit-Learning-blue) ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-Learning-blue) ![VMware](https://img.shields.io/badge/VMware-Practicing-cyan)
 
-
-
-
-
 <div align="center"><img src="assets/section-divider.svg" alt="" width="800" height="20"/></div>
-
-
 
 <div align="center">
 
 ## Network Architecture
 
-<img src="assets/network-architecture.svg" alt="Advanced network architecture — Internet, Firewall, Load Balancer, Web Tier, Application Layer, Database, Backup" width="800"/>
+<img src="assets/network-architecture-new.svg" alt="Network architecture — Internet, Firewall, HAProxy, Web Servers, Application, Database" width="800"/>
 
 </div>
 
@@ -153,12 +147,7 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 </tr>
 </table>
 
-
-
-
 <div align="center"><img src="assets/section-divider.svg" alt="" width="800" height="20"/></div>
-
-
 
 <div align="center">
 
@@ -180,21 +169,17 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 
 ## Networking Labs
 
-<img src="assets/network-labs.svg" alt="Network operations dashboard with lab nodes, status indicators, and progress bars" width="700"/>
+<img src="assets/networking-labs.svg" alt="Networking labs — Routing, Services, Security, Troubleshooting" width="800"/>
 
 </div>
 
-
-
 <div align="center"><img src="assets/section-divider.svg" alt="" width="800" height="20"/></div>
-
-
 
 <div align="center">
 
 ## Certifications & Courses
 
-<img src="assets/certifications.svg" alt="Certification timeline — Red Hat, CCNA 3 modules, Diploma in English" width="700"/>
+<img src="assets/certifications-new.svg" alt="Certification timeline — CCNA 3 modules, Red Hat, Diploma in English" width="800"/>
 
 </div>
 
@@ -203,7 +188,6 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 - **BSc (Hons) in Ethical Hacking & Network Security** — University ![In Progress](https://img.shields.io/badge/In%20Progress-yellow) (2024 - Present)
 - **Higher National Diploma in Network Engineering** — Institute of Network Engineering ![In Progress](https://img.shields.io/badge/In%20Progress-yellow) (2023 - Present)
 - **Diploma in English** — Academy - English in Seven Boxes ![Completed](https://img.shields.io/badge/Completed-brightgreen) (2025)
-
 
 ## Currently Learning
 
@@ -217,11 +201,7 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 - Python for Security Automation
 - Cloud & Infrastructure Security
 
-
-
 <div align="center"><img src="assets/section-divider.svg" alt="" width="800" height="20"/></div>
-
-
 
 ## GitHub Statistics
 
@@ -232,7 +212,6 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahan-Chathumina-25&layout=compact&theme=dark&hide_border=true&bg_color=%230B1117&title_color=%2300D9FF&text_color=%23EAF7FF&lang_count=6" alt="Top Languages" height="165"/>
 
 </div>
-
 
 <div align="center">
 
@@ -246,6 +225,6 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 
 ## Footer
 
-<img src="assets/footer-cinematic.svg" alt="Cinematic footer — BUILD • LEARN • SECURE — System Status: ONLINE" width="600"/>
+<img src="assets/footer-cinematic.svg" alt="Footer — BUILD • LEARN • SECURE" width="600"/>
 
 </div>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380">
+  <rect width="800" height="380" fill="#05070A" rx="8"/>
+  <text x="40" y="32" font-family="'Segoe UI',system-ui,sans-serif" font-size="14" font-weight="700" fill="#EAF7FF">CERTIFICATIONS &amp; COURSES</text>
+  <line x1="120" y1="60" x2="120" y2="360" stroke="#1A2736" stroke-width="1.5"/>
+  <circle cx="120" cy="80" r="6" fill="#00D9FF" opacity="0.8"/>
+  <circle cx="120" cy="80" r="10" fill="none" stroke="#00D9FF" stroke-width="1" opacity="0.3"/>
+  <text x="140" y="84" font-family="'Segoe UI',system-ui,sans-serif" font-size="13" font-weight="700" fill="#EAF7FF">CCNA — Cisco Certified Network Associate</text>
+  <text x="140" y="98" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#7F95A5">Cisco Networking Academy · 3 Modules · All Completed</text>
+  <line x1="120" y1="115" x2="130" y2="115" stroke="#1A2736" stroke-width="1"/>
+  <circle cx="134" cy="115" r="4" fill="#00FF88" opacity="0.8"/>
+  <text x="146" y="119" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" font-weight="600" fill="#00D9FF">Module 01</text>
+  <text x="210" y="119" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#EAF7FF">Introduction to Networks</text>
+  <text x="760" y="119" text-anchor="end" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#00FF88">✓ COMPLETED</text>
+  <line x1="120" y1="150" x2="130" y2="150" stroke="#1A2736" stroke-width="1"/>
+  <circle cx="134" cy="150" r="4" fill="#00FF88" opacity="0.8"/>
+  <text x="146" y="154" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" font-weight="600" fill="#00D9FF">Module 02</text>
+  <text x="210" y="154" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#EAF7FF">Switching, Routing &amp; Wireless Essentials</text>
+  <text x="760" y="154" text-anchor="end" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#00FF88">✓ COMPLETED</text>
+  <line x1="120" y1="185" x2="130" y2="185" stroke="#1A2736" stroke-width="1"/>
+  <circle cx="134" cy="185" r="4" fill="#00FF88" opacity="0.8"/>
+  <text x="146" y="189" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" font-weight="600" fill="#00D9FF">Module 03</text>
+  <text x="210" y="189" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#EAF7FF">Enterprise Networking, Security &amp; Automation</text>
+  <text x="760" y="189" text-anchor="end" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#00FF88">✓ COMPLETED</text>
+  <circle cx="120" cy="248" r="5" fill="#00FF88" opacity="0.8"/>
+  <line x1="125" y1="248" x2="136" y2="248" stroke="#1A2736" stroke-width="1"/>
+  <rect x="140" y="234" width="420" height="38" rx="6" fill="#0B1117" stroke="#1A2736" stroke-width="1"/>
+  <text x="154" y="252" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" font-weight="600" fill="#EAF7FF">Red Hat System Administration I</text>
+  <text x="154" y="266" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#7F95A5">Red Hat · 2026</text>
+  <text x="760" y="256" text-anchor="end" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#00FF88">✓ COMPLETED</text>
+  <circle cx="120" cy="310" r="5" fill="#00FF88" opacity="0.8"/>
+  <line x1="125" y1="310" x2="136" y2="310" stroke="#1A2736" stroke-width="1"/>
+  <rect x="140" y="296" width="420" height="38" rx="6" fill="#0B1117" stroke="#1A2736" stroke-width="1"/>
+  <text x="154" y="314" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" font-weight="600" fill="#EAF7FF">Diploma in English</text>
+  <text x="154" y="328" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#7F95A5">Academy - English in Seven Boxes · 2025</text>
+  <text x="760" y="318" text-anchor="end" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#00FF88">✓ COMPLETED</text>
+</svg>

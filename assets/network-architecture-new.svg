@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520">
+  <rect width="800" height="520" fill="#05070A" rx="8"/>
+  <text x="400" y="28" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="13" font-weight="700" fill="#EAF7FF" letter-spacing="1">NETWORK ARCHITECTURE</text>
+  <text x="20" y="75" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" font-weight="600" fill="#7F95A5" letter-spacing="1">EXTERNAL</text>
+  <rect x="150" y="55" width="450" height="40" rx="6" fill="#0B1117" stroke="#7F95A5" stroke-width="1"/>
+  <text x="375" y="80" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" fill="#EAF7FF">INTERNET</text>
+  <line x1="375" y1="95" x2="375" y2="125" stroke="#7F95A5" stroke-width="1"/>
+  <polygon points="370,120 380,120 375,130" fill="#7F95A5"/>
+  <text x="20" y="155" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" font-weight="600" fill="#7F95A5" letter-spacing="1">SECURITY</text>
+  <rect x="150" y="135" width="450" height="40" rx="6" fill="#0B1117" stroke="#FFB800" stroke-width="1"/>
+  <text x="375" y="160" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" fill="#EAF7FF">EDGE FIREWALL &amp; VPN</text>
+  <line x1="375" y1="175" x2="375" y2="205" stroke="#7F95A5" stroke-width="1"/>
+  <polygon points="370,200 380,200 375,210" fill="#7F95A5"/>
+  <text x="20" y="235" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" font-weight="600" fill="#7F95A5" letter-spacing="1">LOAD BALANCING</text>
+  <rect x="150" y="215" width="450" height="40" rx="6" fill="#0B1117" stroke="#00D9FF" stroke-width="1"/>
+  <text x="375" y="240" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" fill="#EAF7FF">HAPROXY LOAD BALANCER</text>
+  <line x1="300" y1="255" x2="300" y2="285" stroke="#7F95A5" stroke-width="1"/>
+  <polygon points="295,280 305,280 300,290" fill="#7F95A5"/>
+  <line x1="450" y1="255" x2="450" y2="285" stroke="#7F95A5" stroke-width="1"/>
+  <polygon points="445,280 455,280 450,290" fill="#7F95A5"/>
+  <text x="20" y="315" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" font-weight="600" fill="#7F95A5" letter-spacing="1">WEB TIER</text>
+  <rect x="120" y="295" width="170" height="40" rx="6" fill="#0B1117" stroke="#1479FF" stroke-width="1"/>
+  <text x="205" y="320" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" fill="#EAF7FF">WEB SERVER 01</text>
+  <text x="205" y="332" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="8" fill="#7F95A5">Apache / Nginx</text>
+  <rect x="350" y="295" width="170" height="40" rx="6" fill="#0B1117" stroke="#1479FF" stroke-width="1"/>
+  <text x="435" y="320" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" fill="#EAF7FF">WEB SERVER 02</text>
+  <text x="435" y="332" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="8" fill="#7F95A5">Apache / Nginx</text>
+  <line x1="300" y1="335" x2="300" y2="365" stroke="#7F95A5" stroke-width="1"/>
+  <line x1="450" y1="335" x2="450" y2="365" stroke="#7F95A5" stroke-width="1"/>
+  <line x1="300" y1="365" x2="450" y2="365" stroke="#7F95A5" stroke-width="1"/>
+  <line x1="375" y1="365" x2="375" y2="385" stroke="#7F95A5" stroke-width="1"/>
+  <polygon points="370,380 380,380 375,390" fill="#7F95A5"/>
+  <text x="20" y="405" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" font-weight="600" fill="#7F95A5" letter-spacing="1">APPLICATION</text>
+  <rect x="150" y="395" width="450" height="40" rx="6" fill="#0B1117" stroke="#1479FF" stroke-width="1"/>
+  <text x="375" y="420" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" fill="#EAF7FF">APPLICATION SERVICES</text>
+  <line x1="375" y1="435" x2="375" y2="465" stroke="#7F95A5" stroke-width="1"/>
+  <polygon points="370,460 380,460 375,470" fill="#7F95A5"/>
+  <text x="20" y="490" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" font-weight="600" fill="#7F95A5" letter-spacing="1">DATABASE</text>
+  <rect x="150" y="475" width="450" height="40" rx="6" fill="#0B1117" stroke="#00FF88" stroke-width="1"/>
+  <text x="375" y="500" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" fill="#EAF7FF">MYSQL DATABASE (Primary / Replica)</text>
+  <rect x="640" y="135" width="140" height="180" rx="6" fill="#0B1117" stroke="#1A2736" stroke-width="0.5"/>
+  <text x="710" y="155" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" font-weight="600" fill="#7F95A5" letter-spacing="1">SUPPORTING</text>
+  <line x1="650" y1="162" x2="770" y2="162" stroke="#1A2736" stroke-width="0.5"/>
+  <text x="655" y="182" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#7F95A5">DNS</text>
+  <text x="655" y="202" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#7F95A5">DHCP</text>
+  <text x="655" y="222" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#7F95A5">SSH</text>
+  <text x="655" y="242" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#7F95A5">TLS/SSL</text>
+  <text x="655" y="262" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#7F95A5">VPN</text>
+  <text x="655" y="282" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#7F95A5">Monitoring</text>
+  <text x="655" y="302" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#7F95A5">Logging</text>
+</svg>
