@@ -1,142 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 672 180" width="672" height="180">
-  <g transform="translate(0, 0)">
-  <defs>
-    <linearGradient id="sc-grad-Cybersecurity" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#1479FF;stop-opacity:1"/>
-    </linearGradient>
-    <filter id="sc-glow-Cybersecurity">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <radialGradient id="sc-glass-Cybersecurity" cx="40%" cy="35%" r="55%">
-      <stop offset="0%" style="stop-color:#EAF7FF;stop-opacity:0.06"/>
-      <stop offset="100%" style="stop-color:#EAF7FF;stop-opacity:0"/>
-    </radialGradient>
-  </defs>
-
-  <circle cx="75" cy="75" r="67" fill="none" stroke="#1A2736" stroke-width="0.5" opacity="0.2"/>
-
-  <circle cx="75" cy="75" r="59" fill="none" stroke="#1A2736" stroke-width="5" opacity="0.3"/>
-
-  <circle cx="75" cy="75" r="59" fill="none" stroke="url(#sc-grad-Cybersecurity)" stroke-width="5" stroke-linecap="round" stroke-dasharray="370.7079331235956" stroke-dashoffset="203.88936321797758" transform="rotate(-90 75 75)" filter="url(#sc-glow-Cybersecurity)">
-    <animate attributeName="stroke-dashoffset" from="370.7079331235956" to="203.88936321797758" dur="1.8s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
-  </circle>
-
-  <circle cx="75" cy="75" r="49" fill="url(#sc-glass-Cybersecurity)" opacity="0.5"/>
-
-  <circle cx="75" cy="16" r="3" fill="#00D9FF" opacity="0">
-    <animate attributeName="opacity" values="0;0.8;0" dur="2s" repeatCount="indefinite" begin="1.8s"/>
-    <animateMotion dur="6s" repeatCount="indefinite" begin="1.8s" path="M0,0 A59,59 0 1,1 -0.1,0"/>
-  </circle>
-
-  <text x="75" y="79" text-anchor="middle" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="24" font-weight="700" fill="#EAF7FF">45%</text>
-
-  <text x="75" y="168" text-anchor="middle" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="11" fill="#7F95A5" letter-spacing="0.5">Cybersecurity</text>
-</g>
-  <g transform="translate(174, 0)">
-  <defs>
-    <linearGradient id="sc-grad-Networking" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#1479FF;stop-opacity:1"/>
-    </linearGradient>
-    <filter id="sc-glow-Networking">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <radialGradient id="sc-glass-Networking" cx="40%" cy="35%" r="55%">
-      <stop offset="0%" style="stop-color:#EAF7FF;stop-opacity:0.06"/>
-      <stop offset="100%" style="stop-color:#EAF7FF;stop-opacity:0"/>
-    </radialGradient>
-  </defs>
-
-  <circle cx="75" cy="75" r="67" fill="none" stroke="#1A2736" stroke-width="0.5" opacity="0.2"/>
-
-  <circle cx="75" cy="75" r="59" fill="none" stroke="#1A2736" stroke-width="5" opacity="0.3"/>
-
-  <circle cx="75" cy="75" r="59" fill="none" stroke="url(#sc-grad-Networking)" stroke-width="5" stroke-linecap="round" stroke-dasharray="370.7079331235956" stroke-dashoffset="185.3539665617978" transform="rotate(-90 75 75)" filter="url(#sc-glow-Networking)">
-    <animate attributeName="stroke-dashoffset" from="370.7079331235956" to="185.3539665617978" dur="1.8s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
-  </circle>
-
-  <circle cx="75" cy="75" r="49" fill="url(#sc-glass-Networking)" opacity="0.5"/>
-
-  <circle cx="75" cy="16" r="3" fill="#00D9FF" opacity="0">
-    <animate attributeName="opacity" values="0;0.8;0" dur="2s" repeatCount="indefinite" begin="1.8s"/>
-    <animateMotion dur="6s" repeatCount="indefinite" begin="1.8s" path="M0,0 A59,59 0 1,1 -0.1,0"/>
-  </circle>
-
-  <text x="75" y="79" text-anchor="middle" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="24" font-weight="700" fill="#EAF7FF">50%</text>
-
-  <text x="75" y="168" text-anchor="middle" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="11" fill="#7F95A5" letter-spacing="0.5">Networking</text>
-</g>
-  <g transform="translate(348, 0)">
-  <defs>
-    <linearGradient id="sc-grad-Linux" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#1479FF;stop-opacity:1"/>
-    </linearGradient>
-    <filter id="sc-glow-Linux">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <radialGradient id="sc-glass-Linux" cx="40%" cy="35%" r="55%">
-      <stop offset="0%" style="stop-color:#EAF7FF;stop-opacity:0.06"/>
-      <stop offset="100%" style="stop-color:#EAF7FF;stop-opacity:0"/>
-    </radialGradient>
-  </defs>
-
-  <circle cx="75" cy="75" r="67" fill="none" stroke="#1A2736" stroke-width="0.5" opacity="0.2"/>
-
-  <circle cx="75" cy="75" r="59" fill="none" stroke="#1A2736" stroke-width="5" opacity="0.3"/>
-
-  <circle cx="75" cy="75" r="59" fill="none" stroke="url(#sc-grad-Linux)" stroke-width="5" stroke-linecap="round" stroke-dasharray="370.7079331235956" stroke-dashoffset="166.818569905618" transform="rotate(-90 75 75)" filter="url(#sc-glow-Linux)">
-    <animate attributeName="stroke-dashoffset" from="370.7079331235956" to="166.818569905618" dur="1.8s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
-  </circle>
-
-  <circle cx="75" cy="75" r="49" fill="url(#sc-glass-Linux)" opacity="0.5"/>
-
-  <circle cx="75" cy="16" r="3" fill="#00D9FF" opacity="0">
-    <animate attributeName="opacity" values="0;0.8;0" dur="2s" repeatCount="indefinite" begin="1.8s"/>
-    <animateMotion dur="6s" repeatCount="indefinite" begin="1.8s" path="M0,0 A59,59 0 1,1 -0.1,0"/>
-  </circle>
-
-  <text x="75" y="79" text-anchor="middle" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="24" font-weight="700" fill="#EAF7FF">55%</text>
-
-  <text x="75" y="168" text-anchor="middle" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="11" fill="#7F95A5" letter-spacing="0.5">Linux</text>
-</g>
-  <g transform="translate(522, 0)">
-  <defs>
-    <linearGradient id="sc-grad-FullStackDev" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#1479FF;stop-opacity:1"/>
-    </linearGradient>
-    <filter id="sc-glow-FullStackDev">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <radialGradient id="sc-glass-FullStackDev" cx="40%" cy="35%" r="55%">
-      <stop offset="0%" style="stop-color:#EAF7FF;stop-opacity:0.06"/>
-      <stop offset="100%" style="stop-color:#EAF7FF;stop-opacity:0"/>
-    </radialGradient>
-  </defs>
-
-  <circle cx="75" cy="75" r="67" fill="none" stroke="#1A2736" stroke-width="0.5" opacity="0.2"/>
-
-  <circle cx="75" cy="75" r="59" fill="none" stroke="#1A2736" stroke-width="5" opacity="0.3"/>
-
-  <circle cx="75" cy="75" r="59" fill="none" stroke="url(#sc-grad-FullStackDev)" stroke-width="5" stroke-linecap="round" stroke-dasharray="370.7079331235956" stroke-dashoffset="259.49555318651693" transform="rotate(-90 75 75)" filter="url(#sc-glow-FullStackDev)">
-    <animate attributeName="stroke-dashoffset" from="370.7079331235956" to="259.49555318651693" dur="1.8s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
-  </circle>
-
-  <circle cx="75" cy="75" r="49" fill="url(#sc-glass-FullStackDev)" opacity="0.5"/>
-
-  <circle cx="75" cy="16" r="3" fill="#00D9FF" opacity="0">
-    <animate attributeName="opacity" values="0;0.8;0" dur="2s" repeatCount="indefinite" begin="1.8s"/>
-    <animateMotion dur="6s" repeatCount="indefinite" begin="1.8s" path="M0,0 A59,59 0 1,1 -0.1,0"/>
-  </circle>
-
-  <text x="75" y="79" text-anchor="middle" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="24" font-weight="700" fill="#EAF7FF">30%</text>
-
-  <text x="75" y="168" text-anchor="middle" font-family="'Segoe UI','Inter',Arial,sans-serif" font-size="11" fill="#7F95A5" letter-spacing="0.5">Full Stack Dev</text>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" width="680" height="320"><defs><style>
+    .cat-name { font-family:'Segoe UI',system-ui,sans-serif; font-size:11px; font-weight:600; fill:#EAF7FF; }
+    .pct-text { font-family:'Segoe UI',system-ui,sans-serif; font-size:16px; font-weight:700; fill:#EAF7FF; }
+    .skill-name { font-family:'Segoe UI',system-ui,sans-serif; font-size:8px; fill:#7F95A5; }
+    .skill-level { font-family:'Segoe UI',system-ui,sans-serif; font-size:7px; }
+  </style></defs><rect width="680" height="320" fill="#05070A" rx="8"/><text x="340" y="28" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" font-weight="600" fill="#7F95A5" letter-spacing="2">SKILL OVERVIEW</text><rect x="20" y="50" width="148" height="230" rx="8" fill="#0B1117" stroke="#1A2736" stroke-width="1"/><text x="94" y="66" text-anchor="middle" font-size="12">🛡</text><text x="94" y="80" text-anchor="middle" class="cat-name">Cybersecurity</text><circle cx="94" cy="110" r="42" fill="none" stroke="#111820" stroke-width="5"/><circle cx="94" cy="110" r="42" fill="none" stroke="#00D9FF" stroke-width="5" stroke-linecap="round"
+      stroke-dasharray="263.89378290154264" stroke-dashoffset="263.89378290154264" transform="rotate(-90 94 110)">
+      <animate attributeName="stroke-dashoffset" from="263.89378290154264" to="145.14158059584847" dur="1.2s" fill="freeze" begin="0.3s"/>
+    </circle><text x="94" y="116" text-anchor="middle" class="pct-text">45%</text><text x="32" y="170" class="skill-name">Ethical Hacking</text><text x="156" y="170" text-anchor="end" class="skill-level" fill="#7F95A5">Learning</text><text x="32" y="184" class="skill-name">Network Security</text><text x="156" y="184" text-anchor="end" class="skill-level" fill="#7F95A5">Learning</text><text x="32" y="198" class="skill-name">Vulnerability Assessment</text><text x="156" y="198" text-anchor="end" class="skill-level" fill="#7F95A5">Learning</text><text x="32" y="212" class="skill-name">Security Hardening</text><text x="156" y="212" text-anchor="end" class="skill-level" fill="#00D9FF">Practicing</text><text x="32" y="226" class="skill-name">OSINT</text><text x="156" y="226" text-anchor="end" class="skill-level" fill="#7F95A5">Learning</text><rect x="184" y="50" width="148" height="230" rx="8" fill="#0B1117" stroke="#1A2736" stroke-width="1"/><text x="258" y="66" text-anchor="middle" font-size="12">🌐</text><text x="258" y="80" text-anchor="middle" class="cat-name">Networking</text><circle cx="258" cy="110" r="42" fill="none" stroke="#111820" stroke-width="5"/><circle cx="258" cy="110" r="42" fill="none" stroke="#1479FF" stroke-width="5" stroke-linecap="round"
+      stroke-dasharray="263.89378290154264" stroke-dashoffset="263.89378290154264" transform="rotate(-90 258 110)">
+      <animate attributeName="stroke-dashoffset" from="263.89378290154264" to="131.94689145077132" dur="1.2s" fill="freeze" begin="0.3s"/>
+    </circle><text x="258" y="116" text-anchor="middle" class="pct-text">50%</text><text x="196" y="170" class="skill-name">TCP/IP</text><text x="320" y="170" text-anchor="end" class="skill-level" fill="#00D9FF">Practicing</text><text x="196" y="184" class="skill-name">DNS</text><text x="320" y="184" text-anchor="end" class="skill-level" fill="#00D9FF">Practicing</text><text x="196" y="198" class="skill-name">DHCP</text><text x="320" y="198" text-anchor="end" class="skill-level" fill="#00D9FF">Practicing</text><text x="196" y="212" class="skill-name">HTTP/HTTPS</text><text x="320" y="212" text-anchor="end" class="skill-level" fill="#00D9FF">Practicing</text><text x="196" y="226" class="skill-name">Routing & Switching</text><text x="320" y="226" text-anchor="end" class="skill-level" fill="#7F95A5">Learning</text><rect x="348" y="50" width="148" height="230" rx="8" fill="#0B1117" stroke="#1A2736" stroke-width="1"/><text x="422" y="66" text-anchor="middle" font-size="12">⚙</text><text x="422" y="80" text-anchor="middle" class="cat-name">Linux & Systems</text><circle cx="422" cy="110" r="42" fill="none" stroke="#111820" stroke-width="5"/><circle cx="422" cy="110" r="42" fill="none" stroke="#00FF88" stroke-width="5" stroke-linecap="round"
+      stroke-dasharray="263.89378290154264" stroke-dashoffset="263.89378290154264" transform="rotate(-90 422 110)">
+      <animate attributeName="stroke-dashoffset" from="263.89378290154264" to="118.75220230569417" dur="1.2s" fill="freeze" begin="0.3s"/>
+    </circle><text x="422" y="116" text-anchor="middle" class="pct-text">55%</text><text x="360" y="170" class="skill-name">Linux</text><text x="484" y="170" text-anchor="end" class="skill-level" fill="#00D9FF">Practicing</text><text x="360" y="184" class="skill-name">CentOS</text><text x="484" y="184" text-anchor="end" class="skill-level" fill="#00D9FF">Practicing</text><text x="360" y="198" class="skill-name">Rocky Linux</text><text x="484" y="198" text-anchor="end" class="skill-level" fill="#7F95A5">Learning</text><text x="360" y="212" class="skill-name">SSH</text><text x="484" y="212" text-anchor="end" class="skill-level" fill="#00D9FF">Practicing</text><text x="360" y="226" class="skill-name">Apache</text><text x="484" y="226" text-anchor="end" class="skill-level" fill="#00D9FF">Practicing</text><rect x="512" y="50" width="148" height="230" rx="8" fill="#0B1117" stroke="#1A2736" stroke-width="1"/><text x="586" y="66" text-anchor="middle" font-size="12">⚡</text><text x="586" y="80" text-anchor="middle" class="cat-name">Full Stack</text><circle cx="586" cy="110" r="42" fill="none" stroke="#111820" stroke-width="5"/><circle cx="586" cy="110" r="42" fill="none" stroke="#FFB800" stroke-width="5" stroke-linecap="round"
+      stroke-dasharray="263.89378290154264" stroke-dashoffset="263.89378290154264" transform="rotate(-90 586 110)">
+      <animate attributeName="stroke-dashoffset" from="263.89378290154264" to="184.72564803107983" dur="1.2s" fill="freeze" begin="0.3s"/>
+    </circle><text x="586" y="116" text-anchor="middle" class="pct-text">30%</text><text x="524" y="170" class="skill-name">WordPress</text><text x="648" y="170" text-anchor="end" class="skill-level" fill="#7F95A5">Learning</text><text x="524" y="184" class="skill-name">HTML/CSS</text><text x="648" y="184" text-anchor="end" class="skill-level" fill="#00D9FF">Practicing</text><text x="524" y="198" class="skill-name">JavaScript</text><text x="648" y="198" text-anchor="end" class="skill-level" fill="#7F95A5">Learning</text><text x="524" y="212" class="skill-name">PHP</text><text x="648" y="212" text-anchor="end" class="skill-level" fill="#7F95A5">Learning</text><text x="524" y="226" class="skill-name">MySQL</text><text x="648" y="226" text-anchor="end" class="skill-level" fill="#7F95A5">Learning</text><rect x="520" y="252" width="132" height="20" rx="4" fill="#111820" stroke="#FFB800" stroke-width="0.5" opacity="0.6"/><text x="586" y="266" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="8" font-weight="600" fill="#FFB800">WordPress Focus</text></svg>

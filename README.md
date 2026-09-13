@@ -238,6 +238,7 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 
 - **BSc (Hons) in Ethical Hacking & Network Security** — University ![In Progress](https://img.shields.io/badge/In%20Progress-yellow) (2024 - Present)
 - **Higher National Diploma in Network Engineering** — Institute of Network Engineering ![In Progress](https://img.shields.io/badge/In%20Progress-yellow) (2023 - Present)
+- **Diploma in English** — Academy - English in Seven Boxes ![Completed](https://img.shields.io/badge/Completed-brightgreen) (2025)
 
 
 ## Currently Learning
