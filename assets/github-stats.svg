@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 200" width="700" height="200">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1117"/>
+      <stop offset="100%" stop-color="#05070A"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
+  </style>
+
+  <!-- Background -->
+  <rect width="700" height="200" fill="url(#cardBg)" rx="10" stroke="#1A2736" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="350" y="28" text-anchor="middle" fill="#00D9FF" font-size="11" font-weight="700" letter-spacing="3" opacity="0.9">GITHUB STATISTICS</text>
+  <line x1="250" y1="36" x2="450" y2="36" stroke="#00D9FF" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- ===== Left Card: Profile Stats ===== -->
+  <rect x="30" y="50" width="320" height="130" rx="8" fill="#05070A" stroke="#1A2736" stroke-width="1"/>
+  <rect x="30" y="50" width="320" height="28" rx="8" fill="#111820"/>
+  <rect x="30" y="70" width="320" height="8" fill="#111820"/>
+  <text x="190" y="69" text-anchor="middle" fill="#EAF7FF" font-size="10" font-weight="600" letter-spacing="1">PROFILE STATS</text>
+
+  <!-- Repos -->
+  <text x="55" y="100" fill="#7F95A5" font-size="10">Public Repos</text>
+  <text x="290" y="100" text-anchor="end" fill="#EAF7FF" font-size="14" font-weight="700">5+</text>
+
+  <!-- Contributions -->
+  <text x="55" y="122" fill="#7F95A5" font-size="10">Contributions</text>
+  <text x="290" y="122" text-anchor="end" fill="#00FF88" font-size="14" font-weight="700">Active</text>
+
+  <!-- Stars -->
+  <text x="55" y="144" fill="#7F95A5" font-size="10">Stars Earned</text>
+  <text x="290" y="144" text-anchor="end" fill="#FFB800" font-size="14" font-weight="700">0</text>
+
+  <!-- Followers -->
+  <text x="55" y="166" fill="#7F95A5" font-size="10">Followers</text>
+  <text x="290" y="166" text-anchor="end" fill="#EAF7FF" font-size="14" font-weight="700">0</text>
+
+  <!-- ===== Right Card: Top Languages ===== -->
+  <rect x="360" y="50" width="310" height="130" rx="8" fill="#05070A" stroke="#1A2736" stroke-width="1"/>
+  <rect x="360" y="50" width="310" height="28" rx="8" fill="#111820"/>
+  <rect x="360" y="70" width="310" height="8" fill="#111820"/>
+  <text x="515" y="69" text-anchor="middle" fill="#EAF7FF" font-size="10" font-weight="600" letter-spacing="1">TOP LANGUAGES</text>
+
+  <!-- Language bars -->
+  <!-- Python -->
+  <text x="385" y="100" fill="#7F95A5" font-size="10">Python</text>
+  <rect x="460" y="92" width="180" height="8" rx="4" fill="#1A2736"/>
+  <rect x="460" y="92" width="126" height="8" rx="4" fill="#3572A5"/>
+  <text x="650" y="100" text-anchor="end" fill="#EAF7FF" font-size="9">35%</text>
+
+  <!-- Bash -->
+  <text x="385" y="120" fill="#7F95A5" font-size="10">Bash</text>
+  <rect x="460" y="112" width="180" height="8" rx="4" fill="#1A2736"/>
+  <rect x="460" y="112" width="108" height="8" rx="4" fill="#89e051"/>
+  <text x="650" y="120" text-anchor="end" fill="#EAF7FF" font-size="9">30%</text>
+
+  <!-- HTML -->
+  <text x="385" y="140" fill="#7F95A5" font-size="10">HTML</text>
+  <rect x="460" y="132" width="180" height="8" rx="4" fill="#1A2736"/>
+  <rect x="460" y="132" width="72" height="8" rx="4" fill="#e34c26"/>
+  <text x="650" y="140" text-anchor="end" fill="#EAF7FF" font-size="9">20%</text>
+
+  <!-- JavaScript -->
+  <text x="385" y="160" fill="#7F95A5" font-size="10">JavaScript</text>
+  <rect x="460" y="152" width="180" height="8" rx="4" fill="#1A2736"/>
+  <rect x="460" y="152" width="54" height="8" rx="4" fill="#f1e05a"/>
+  <text x="650" y="160" text-anchor="end" fill="#EAF7FF" font-size="9">15%</text>
+</svg>
