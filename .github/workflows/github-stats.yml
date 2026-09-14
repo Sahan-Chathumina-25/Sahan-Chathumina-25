@@ -1,0 +1,60 @@
+name: Update GitHub Statistics
+
+on:
+  schedule:
+    - cron: "17 2 * * *"  # Daily at ~2:17 AM UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate statistics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate-stats.py
+
+      - name: Validate SVG
+        run: |
+          if [ ! -f assets/github-statistics.svg ]; then
+            echo "ERROR: github-statistics.svg not generated"
+            exit 1
+          fi
+          # Check it's valid XML
+          python -c "import xml.etree.ElementTree as ET; ET.parse('assets/github-statistics.svg'); print('SVG is valid XML')"
+          # Check it has content
+          SIZE=$(wc -c < assets/github-statistics.svg)
+          if [ "$SIZE" -lt 500 ]; then
+            echo "ERROR: SVG is too small ($SIZE bytes), likely incomplete"
+            exit 1
+          fi
+          echo "SVG validated: $SIZE bytes"
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet assets/github-statistics.svg 2>/dev/null; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/github-statistics.svg
+          git commit -m "chore: update GitHub statistics [skip ci]"
+          git push
