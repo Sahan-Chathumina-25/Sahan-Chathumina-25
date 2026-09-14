@@ -222,11 +222,12 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 ## GitHub Statistics
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Sahan-Chathumina-25&show_icons=true&theme=dark&hide_border=true&bg_color=%230B1117&title_color=%2300D9FF&text_color=%23EAF7FF&icon_color=%2300D9FF" alt="GitHub Stats" height="165"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahan-Chathumina-25&layout=compact&theme=dark&hide_border=true&bg_color=%230B1117&title_color=%2300D9FF&text_color=%23EAF7FF&lang_count=6" alt="Top Languages" height="165"/>
-
+<table>
+<tr>
+<td align="center"><img src="https://github-readme-stats.vercel.app/api?username=Sahan-Chathumina-25&show_icons=true&theme=dark&hide_border=true&bg_color=%230B1117&title_color=%2300D9FF&text_color=%23EAF7FF&icon_color=%2300D9FF" alt="GitHub Stats" height="165"/></td>
+<td align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahan-Chathumina-25&layout=compact&theme=dark&hide_border=true&bg_color=%230B1117&title_color=%2300D9FF&text_color=%23EAF7FF&lang_count=6" alt="Top Languages" height="165"/></td>
+</tr>
+</table>
 </div>
 
 <div align="center">
