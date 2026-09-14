@@ -222,7 +222,8 @@ Hands-on practice with common web vulnerabilities in a controlled lab environmen
 ## GitHub Statistics
 
 <div align="center">
-<img src="assets/github-statistics.svg" alt="GitHub Statistics — Sahan Chathumina" width="700"/>
+<img src="assets/stats.svg" alt="GitHub Stats — Sahan Chathumina" width="496"/>
+<img src="assets/top-langs.svg" alt="Top Languages — Sahan Chathumina" width="400"/>
 </div>
 
 <div align="center">
