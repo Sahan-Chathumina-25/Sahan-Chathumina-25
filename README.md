@@ -6,7 +6,9 @@
 
 <div align="center">
 
-<img src="assets/quick-stats.svg" alt="Followers, Stars, Forks" width="400"/>
+[![Followers](https://img.shields.io/github/followers/Sahan-Chathumina-25?style=flat-square&logo=github&label=Followers&color=00D9FF&logoColor=white)](https://github.com/Sahan-Chathumina-25?tab=followers)
+[![Stars](https://img.shields.io/github/stars/Sahan-Chathumina-25?style=flat-square&logo=github&label=Stars&color=FFB800&logoColor=white)](https://github.com/Sahan-Chathumina-25/stargazers)
+[![Forks](https://img.shields.io/github/forks/Sahan-Chathumina-25?style=flat-square&logo=github&label=Forks&color=1479FF&logoColor=white)](https://github.com/Sahan-Chathumina-25/network/members)
 
 </div>
 
