@@ -1,0 +1,77 @@
+name: Update Quick Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate quick stats
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Fetch profile data
+          FOLLOWERS=$(gh api user/followers --jq 'length')
+          STARS=$(gh api user/repos --paginate --jq '[.[].stargazers_count] | add // 0')
+          FORKS=$(gh api user/repos --paginate --jq '[.[].forks_count] | add // 0')
+
+          echo "Followers: $FOLLOWERS"
+          echo "Stars: $STARS"
+          echo "Forks: $FORKS"
+
+          # Create SVG
+          cat > assets/quick-stats.svg << 'SVGEOF'
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 50" width="400" height="50">
+            <defs>
+              <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#0B1117"/>
+                <stop offset="100%" stop-color="#05070A"/>
+              </linearGradient>
+            </defs>
+            <style>
+              text { font-family: 'Segoe UI', system-ui, sans-serif; }
+            </style>
+            <rect width="400" height="50" fill="url(#bg)" rx="8" stroke="#1A2736" stroke-width="1"/>
+            <g transform="translate(20, 25)">
+              <circle cx="0" cy="0" r="4" fill="#00D9FF"/>
+              <text x="12" y="4" fill="#7F95A5" font-size="10">Followers</text>
+              <text x="80" y="4" fill="#EAF7FF" font-size="13" font-weight="700">FOLLOWERS</text>
+            </g>
+            <g transform="translate(150, 25)">
+              <circle cx="0" cy="0" r="4" fill="#FFB800"/>
+              <text x="12" y="4" fill="#7F95A5" font-size="10">Stars</text>
+              <text x="60" y="4" fill="#EAF7FF" font-size="13" font-weight="700">STARS</text>
+            </g>
+            <g transform="translate(270, 25)">
+              <circle cx="0" cy="0" r="4" fill="#1479FF"/>
+              <text x="12" y="4" fill="#7F95A5" font-size="10">Forks</text>
+              <text x="55" y="4" fill="#EAF7FF" font-size="13" font-weight="700">FORKS</text>
+            </g>
+            <line x1="140" y1="12" x2="140" y2="38" stroke="#1A2736" stroke-width="1"/>
+            <line x1="260" y1="12" x2="260" y2="38" stroke="#1A2736" stroke-width="1"/>
+          </svg>
+          SVGEOF
+
+          # Replace placeholders with real values
+          sed -i "s/FOLLOWERS/$FOLLOWERS/g" assets/quick-stats.svg
+          sed -i "s/STARS/$STARS/g" assets/quick-stats.svg
+          sed -i "s/FORKS/$FORKS/g" assets/quick-stats.svg
+
+          echo "Generated quick-stats.svg"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/quick-stats.svg
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "chore: update quick stats [skip ci]"
+          git push

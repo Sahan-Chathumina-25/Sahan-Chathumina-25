@@ -6,6 +6,12 @@
 
 <div align="center">
 
+<img src="assets/quick-stats.svg" alt="Followers, Stars, Forks" width="400"/>
+
+</div>
+
+<div align="center">
+
 ## About Me
 
 <img src="assets/about-me.svg" alt="About Me — Cybersecurity, Networking, Linux, Full Stack Development" width="700"/>
