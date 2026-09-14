@@ -7,7 +7,7 @@
 <div align="center">
 <img src="https://img.shields.io/github/followers/Sahan-Chathumina-25?style=flat-square&logo=github&label=Followers&color=00D9FF&logoColor=white" alt="Followers"/>
 <img src="https://img.shields.io/github/stars/Sahan-Chathumina-25/Sahan-Chathumina-25?style=flat-square&logo=github&label=Stars&color=FFB800&logoColor=white" alt="Stars"/>
-<img src="https://img.shields.io/github/forks/Sahan-Chathumina-25/Sahan-Chathumina-25?style=flat-square&logo=github&label=Forks&color=1479FF&logoColor=white" alt="Forks"/>
+<img src="https://img.shields.io/github/followers/Sahan-Chathumina-25?style=flat-square&logo=githubhttps://img.shields.io/github/forks/Sahan-Chathumina-25?style=flat-square&logo=github&label=Forks&color=1479FF&logoColor=white"/>
 </div>
 
 <div align="center">
