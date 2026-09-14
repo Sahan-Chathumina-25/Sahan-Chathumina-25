@@ -18,17 +18,19 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Fetch profile data
-          FOLLOWERS=$(gh api user/followers --jq 'length')
-          STARS=$(gh api user/repos --paginate --jq '[.[].stargazers_count] | add // 0')
-          FORKS=$(gh api user/repos --paginate --jq '[.[].forks_count] | add // 0')
+          USERNAME="Sahan-Chathumina-25"
+
+          # Fetch profile data using public endpoints
+          FOLLOWERS=$(curl -s "https://api.github.com/users/$USERNAME" | jq '.followers // 0')
+          STARS=$(curl -s "https://api.github.com/users/$USERNAME/repos?per_page=100" | jq '[.[].stargazers_count] | add // 0')
+          FORKS=$(curl -s "https://api.github.com/users/$USERNAME/repos?per_page=100" | jq '[.[].forks_count] | add // 0')
 
           echo "Followers: $FOLLOWERS"
           echo "Stars: $STARS"
           echo "Forks: $FORKS"
 
-          # Create SVG
-          cat > assets/quick-stats.svg << 'SVGEOF'
+          # Create SVG with real values
+          cat > assets/quick-stats.svg << EOF
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 50" width="400" height="50">
             <defs>
               <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -43,27 +45,22 @@ jobs:
             <g transform="translate(20, 25)">
               <circle cx="0" cy="0" r="4" fill="#00D9FF"/>
               <text x="12" y="4" fill="#7F95A5" font-size="10">Followers</text>
-              <text x="80" y="4" fill="#EAF7FF" font-size="13" font-weight="700">FOLLOWERS</text>
+              <text x="80" y="4" fill="#EAF7FF" font-size="13" font-weight="700">$FOLLOWERS</text>
             </g>
             <g transform="translate(150, 25)">
               <circle cx="0" cy="0" r="4" fill="#FFB800"/>
               <text x="12" y="4" fill="#7F95A5" font-size="10">Stars</text>
-              <text x="60" y="4" fill="#EAF7FF" font-size="13" font-weight="700">STARS</text>
+              <text x="60" y="4" fill="#EAF7FF" font-size="13" font-weight="700">$STARS</text>
             </g>
             <g transform="translate(270, 25)">
               <circle cx="0" cy="0" r="4" fill="#1479FF"/>
               <text x="12" y="4" fill="#7F95A5" font-size="10">Forks</text>
-              <text x="55" y="4" fill="#EAF7FF" font-size="13" font-weight="700">FORKS</text>
+              <text x="55" y="4" fill="#EAF7FF" font-size="13" font-weight="700">$FORKS</text>
             </g>
             <line x1="140" y1="12" x2="140" y2="38" stroke="#1A2736" stroke-width="1"/>
             <line x1="260" y1="12" x2="260" y2="38" stroke="#1A2736" stroke-width="1"/>
           </svg>
-          SVGEOF
-
-          # Replace placeholders with real values
-          sed -i "s/FOLLOWERS/$FOLLOWERS/g" assets/quick-stats.svg
-          sed -i "s/STARS/$STARS/g" assets/quick-stats.svg
-          sed -i "s/FORKS/$FORKS/g" assets/quick-stats.svg
+          EOF
 
           echo "Generated quick-stats.svg"
 
