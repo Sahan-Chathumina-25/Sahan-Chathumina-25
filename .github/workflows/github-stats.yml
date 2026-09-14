@@ -2,7 +2,7 @@ name: Update GitHub Statistics
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Daily at midnight UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,13 +18,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: >-
-            username=${{ github.repository_owner }}
-            &show_icons=true
-            &hide_rank=false
-            &include_all_commits=true
-            &count_private=true
-            &theme=dark
+          options: '{"username":"Sahan-Chathumina-25","show_icons":true,"hide_rank":false,"include_all_commits":true,"count_private":true,"theme":"dark"}'
           path: assets/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -32,12 +26,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: >-
-            username=${{ github.repository_owner }}
-            &layout=compact
-            &langs_count=5
-            &hide=html,css
-            &theme=dark
+          options: '{"username":"Sahan-Chathumina-25","layout":"compact","langs_count":5,"theme":"dark"}'
           path: assets/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
