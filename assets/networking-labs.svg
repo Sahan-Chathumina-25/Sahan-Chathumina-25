@@ -1,39 +1,104 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="800" height="220">
-  <rect width="800" height="220" fill="#05070A" rx="8"/>
-  <text x="40" y="32" font-family="'Segoe UI',system-ui,sans-serif" font-size="14" font-weight="700" fill="#EAF7FF">NETWORKING LABS</text>
-  <text x="40" y="46" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" fill="#7F95A5">Network Operations &amp; Infrastructure</text>
-  <rect x="30" y="60" width="170" height="140" rx="6" fill="#0B1117" stroke="#1A2736" stroke-width="1"/>
-  <rect x="30" y="60" width="170" height="24" rx="6" fill="#111820"/>
-  <text x="115" y="77" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" font-weight="600" fill="#00D9FF">ROUTING &amp; SWITCHING</text>
-  <text x="45" y="105" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#EAF7FF">VLAN</text>
-  <circle cx="185" cy="102" r="3" fill="#FFB800" opacity="0.8"/>
-  <text x="45" y="125" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#EAF7FF">Subnetting</text>
-  <circle cx="185" cy="122" r="3" fill="#FFB800" opacity="0.8"/>
-  <text x="45" y="145" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#EAF7FF">Routing</text>
-  <text x="45" y="165" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#EAF7FF">Switching</text>
-  <text x="45" y="190" font-family="'Segoe UI',system-ui,sans-serif" font-size="8" fill="#FFB800">Practical Lab</text>
-  <rect x="220" y="60" width="170" height="140" rx="6" fill="#0B1117" stroke="#1A2736" stroke-width="1"/>
-  <rect x="220" y="60" width="170" height="24" rx="6" fill="#111820"/>
-  <text x="305" y="77" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" font-weight="600" fill="#00D9FF">NETWORK SERVICES</text>
-  <text x="235" y="105" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#EAF7FF">DNS Server</text>
-  <circle cx="375" cy="102" r="3" fill="#00FF88" opacity="0.8"/>
-  <text x="235" y="125" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#EAF7FF">DHCP Server</text>
-  <circle cx="375" cy="122" r="3" fill="#00FF88" opacity="0.8"/>
-  <text x="235" y="145" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#EAF7FF">TCP/IP</text>
-  <text x="235" y="190" font-family="'Segoe UI',system-ui,sans-serif" font-size="8" fill="#00FF88">Completed</text>
-  <rect x="410" y="60" width="170" height="140" rx="6" fill="#0B1117" stroke="#1A2736" stroke-width="1"/>
-  <rect x="410" y="60" width="170" height="24" rx="6" fill="#111820"/>
-  <text x="495" y="77" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" font-weight="600" fill="#00D9FF">SECURITY</text>
-  <text x="425" y="105" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#EAF7FF">Firewall Rules</text>
-  <circle cx="565" cy="102" r="3" fill="#FFB800" opacity="0.8"/>
-  <text x="425" y="125" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#EAF7FF">VPN</text>
-  <text x="425" y="145" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#EAF7FF">Network Security</text>
-  <text x="425" y="190" font-family="'Segoe UI',system-ui,sans-serif" font-size="8" fill="#FFB800">In Progress</text>
-  <rect x="600" y="60" width="170" height="140" rx="6" fill="#0B1117" stroke="#1A2736" stroke-width="1"/>
-  <rect x="600" y="60" width="170" height="24" rx="6" fill="#111820"/>
-  <text x="685" y="77" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" font-weight="600" fill="#00D9FF">TROUBLESHOOTING</text>
-  <text x="615" y="105" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#EAF7FF">Network Analysis</text>
-  <text x="615" y="125" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#EAF7FF">Traffic Analysis</text>
-  <text x="615" y="145" font-family="'Segoe UI',system-ui,sans-serif" font-size="9" fill="#EAF7FF">Connectivity</text>
-  <text x="615" y="190" font-family="'Segoe UI',system-ui,sans-serif" font-size="8" fill="#00D9FF">Wireshark</text>
+  <defs>
+    <linearGradient id="completed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF88"/>
+      <stop offset="100%" stop-color="#00D9FF"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
+  </style>
+
+  <!-- Background -->
+  <rect width="800" height="220" fill="#0B1117" rx="10"/>
+
+  <!-- Section Title -->
+  <text x="40" y="32" fill="#EAF7FF" font-size="14" font-weight="700">NETWORKING LABS</text>
+  <text x="40" y="46" fill="#7F95A5" font-size="10">Network Operations &amp; Infrastructure</text>
+  <line x1="40" y1="54" x2="180" y2="54" stroke="#00D9FF" stroke-width="1" opacity="0.3"/>
+
+  <!-- ===== Card 1: Routing & Switching — COMPLETED ===== -->
+  <g>
+    <rect x="30" y="64" width="175" height="145" rx="8" fill="#05070A" stroke="#1A2736" stroke-width="1"/>
+    <rect x="30" y="64" width="175" height="26" rx="8" fill="#111820"/>
+    <rect x="30" y="82" width="175" height="8" fill="#111820"/>
+    <text x="117" y="82" text-anchor="middle" fill="#00D9FF" font-size="9" font-weight="600" letter-spacing="1">ROUTING &amp; SWITCHING</text>
+
+    <text x="48" y="110" fill="#EAF7FF" font-size="10">VLAN</text>
+    <circle cx="188" cy="107" r="3.5" fill="#00FF88"/>
+
+    <text x="48" y="130" fill="#EAF7FF" font-size="10">Subnetting</text>
+    <circle cx="188" cy="127" r="3.5" fill="#00FF88"/>
+
+    <text x="48" y="150" fill="#EAF7FF" font-size="10">Routing</text>
+    <circle cx="188" cy="147" r="3.5" fill="#00FF88"/>
+
+    <text x="48" y="170" fill="#EAF7FF" font-size="10">Switching</text>
+    <circle cx="188" cy="167" r="3.5" fill="#00FF88"/>
+
+    <!-- Status -->
+    <circle cx="48" cy="192" r="3" fill="#00FF88"/>
+    <text x="56" y="196" fill="#00FF88" font-size="9" font-weight="600">Completed</text>
+  </g>
+
+  <!-- ===== Card 2: Network Services — COMPLETED ===== -->
+  <g>
+    <rect x="222" y="64" width="175" height="145" rx="8" fill="#05070A" stroke="#1A2736" stroke-width="1"/>
+    <rect x="222" y="64" width="175" height="26" rx="8" fill="#111820"/>
+    <rect x="222" y="82" width="175" height="8" fill="#111820"/>
+    <text x="309" y="82" text-anchor="middle" fill="#00D9FF" font-size="9" font-weight="600" letter-spacing="1">NETWORK SERVICES</text>
+
+    <text x="240" y="110" fill="#EAF7FF" font-size="10">DNS Server</text>
+    <circle cx="380" cy="107" r="3.5" fill="#00FF88"/>
+
+    <text x="240" y="130" fill="#EAF7FF" font-size="10">DHCP Server</text>
+    <circle cx="380" cy="127" r="3.5" fill="#00FF88"/>
+
+    <text x="240" y="150" fill="#EAF7FF" font-size="10">TCP/IP</text>
+    <circle cx="380" cy="147" r="3.5" fill="#00FF88"/>
+
+    <circle cx="240" cy="192" r="3" fill="#00FF88"/>
+    <text x="248" y="196" fill="#00FF88" font-size="9" font-weight="600">Completed</text>
+  </g>
+
+  <!-- ===== Card 3: Security — IN PROGRESS ===== -->
+  <g>
+    <rect x="414" y="64" width="175" height="145" rx="8" fill="#05070A" stroke="#1A2736" stroke-width="1"/>
+    <rect x="414" y="64" width="175" height="26" rx="8" fill="#111820"/>
+    <rect x="414" y="82" width="175" height="8" fill="#111820"/>
+    <text x="501" y="82" text-anchor="middle" fill="#00D9FF" font-size="9" font-weight="600" letter-spacing="1">SECURITY</text>
+
+    <text x="432" y="110" fill="#EAF7FF" font-size="10">Firewall Rules</text>
+    <circle cx="572" cy="107" r="3.5" fill="#FFB800"/>
+
+    <text x="432" y="130" fill="#EAF7FF" font-size="10">VPN</text>
+    <circle cx="572" cy="127" r="3.5" fill="#FFB800"/>
+
+    <text x="432" y="150" fill="#EAF7FF" font-size="10">Network Security</text>
+    <circle cx="572" cy="147" r="3.5" fill="#FFB800"/>
+
+    <circle cx="432" cy="192" r="3" fill="#FFB800"/>
+    <text x="440" y="196" fill="#FFB800" font-size="9" font-weight="600">In Progress</text>
+  </g>
+
+  <!-- ===== Card 4: Troubleshooting — IN PROGRESS ===== -->
+  <g>
+    <rect x="606" y="64" width="175" height="145" rx="8" fill="#05070A" stroke="#1A2736" stroke-width="1"/>
+    <rect x="606" y="64" width="175" height="26" rx="8" fill="#111820"/>
+    <rect x="606" y="82" width="175" height="8" fill="#111820"/>
+    <text x="693" y="82" text-anchor="middle" fill="#00D9FF" font-size="9" font-weight="600" letter-spacing="1">TROUBLESHOOTING</text>
+
+    <text x="624" y="110" fill="#EAF7FF" font-size="10">Network Analysis</text>
+    <circle cx="764" cy="107" r="3.5" fill="#FFB800"/>
+
+    <text x="624" y="130" fill="#EAF7FF" font-size="10">Traffic Analysis</text>
+    <circle cx="764" cy="127" r="3.5" fill="#FFB800"/>
+
+    <text x="624" y="150" fill="#EAF7FF" font-size="10">Connectivity</text>
+    <circle cx="764" cy="147" r="3.5" fill="#FFB800"/>
+
+    <circle cx="624" cy="192" r="3" fill="#FFB800"/>
+    <text x="632" y="196" fill="#FFB800" font-size="9" font-weight="600">In Progress</text>
+  </g>
 </svg>
