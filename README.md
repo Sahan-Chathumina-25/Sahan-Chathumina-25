@@ -23,10 +23,11 @@
 
 ## $ whoami
 
-Hi, I'm **Sahan Chathumina** — `Sahan-Chathumina-25` on GitHub. I'm a WordPress-focused Full Stack Web Developer and a student of Ethical Hacking & Network Security at NIBM. I build websites and small tools while developing practical skills in networking, Linux systems, and security.
+Hi, I'm **Sahan Chathumina** (Z Y R 3 X) — `Sahan-Chathumina-25` on GitHub. I'm a WordPress-focused Full Stack Web Developer and a student of Ethical Hacking & Network Security at NIBM. I build websites and small tools while developing practical skills in networking, Linux systems, and security.
 
 ```text
 name      : Sahan Chathumina
+alias     : Z Y R 3 X
 handle    : Sahan-Chathumina-25
 role      : WordPress Full Stack Web Developer
 interests : Networking and Cybersecurity
