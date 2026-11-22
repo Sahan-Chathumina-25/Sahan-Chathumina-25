@@ -93,8 +93,12 @@ Small projects built while learning. Details and source are in the linked reposi
 
 <div align="center">
 
-<img src="assets/stats.svg" alt="GitHub statistics for Sahan Chathumina" width="440"/>
-<img src="assets/top-langs.svg" alt="Top languages for Sahan Chathumina" width="300"/>
+<img src="assets/stats.svg" alt="GitHub statistics for Sahan Chathumina" height="170"/>
+<img src="assets/top-langs.svg" alt="Top languages for Sahan Chathumina" height="170"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com/?user=Sahan-Chathumina-25&hide_border=true&background=0B1117&ring=00D9FF&fire=FFB800&currStreakLabel=00D9FF&sideLabels=9f9f9f&currStreakNum=ffffff&sideNums=ffffff&dates=8a8a99" alt="GitHub contribution streak for Sahan Chathumina" height="160"/>
 
 </div>
 
