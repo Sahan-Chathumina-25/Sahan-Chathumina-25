@@ -7,15 +7,15 @@
 <div align="center">
 
 <a href="https://github.com/Sahan-Chathumina-25">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1000&color=00D9FF&center=true&vCenter=true&width=640&lines=WordPress+Full+Stack+Web+Developer;Exploring+Networking+and+Cybersecurity;Building+Projects+and+Learning+Every+Day" alt="WordPress Full Stack Web Developer | Networking | Cybersecurity"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1000&color=58a6ff&center=true&vCenter=true&width=640&lines=WordPress+Full+Stack+Web+Developer;Exploring+Networking+and+Cybersecurity;Building+Projects+and+Learning+Every+Day" alt="WordPress Full Stack Web Developer | Networking | Cybersecurity"/>
 </a>
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Sahan-Chathumina-25&label=Profile+Views&color=00D9FF&style=flat-square)
-![Followers](https://img.shields.io/github/followers/Sahan-Chathumina-25?style=flat-square&label=Followers&color=00D9FF&labelColor=0B1117)
-![Focus](https://img.shields.io/badge/Focus-WordPress_%7C_Networking_%7C_Security-00D9FF?style=flat-square&labelColor=0B1117&logo=wordpress&logoColor=0B1117)
-![Status](https://img.shields.io/badge/Status-Student_%26_builder-00D9FF?style=flat-square&labelColor=0B1117&logo=linux&logoColor=0B1117)
+![Profile Views](https://komarev.com/ghpvc/?username=Sahan-Chathumina-25&label=Profile+Views&color=162b36&style=flat-square)
+![Followers](https://img.shields.io/github/followers/Sahan-Chathumina-25?style=flat-square&label=Followers&color=162b36&labelColor=0B1117&logo=github&logoColor=00D9FF)
+![Focus](https://img.shields.io/badge/Focus-WordPress_%7C_Networking_%7C_Security-162b36?style=flat-square&labelColor=0B1117&logo=wordpress&logoColor=00D9FF)
+![Status](https://img.shields.io/badge/Status-Student_%26_builder-162b36?style=flat-square&labelColor=0B1117&logo=linux&logoColor=00D9FF)
 
 </div>
 
