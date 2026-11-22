@@ -7,15 +7,15 @@
 <div align="center">
 
 <a href="https://github.com/Sahan-Chathumina-25">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1000&color=58a6ff&center=true&vCenter=true&width=640&lines=WordPress+Full+Stack+Web+Developer;Exploring+Networking+and+Cybersecurity;Building+Projects+and+Learning+Every+Day" alt="WordPress Full Stack Web Developer | Networking | Cybersecurity"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1000&color=00D9FF&center=true&vCenter=true&width=640&lines=WordPress+Full+Stack+Web+Developer;Exploring+Networking+and+Cybersecurity;Building+Projects+and+Learning+Every+Day" alt="WordPress Full Stack Web Developer | Networking | Cybersecurity"/>
 </a>
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Sahan-Chathumina-25&label=Profile+Views&color=162b36&style=flat-square)
-![Followers](https://img.shields.io/github/followers/Sahan-Chathumina-25?style=flat-square&label=Followers&color=162b36&labelColor=0B1117&logo=github&logoColor=00D9FF)
-![Focus](https://img.shields.io/badge/Focus-WordPress_%7C_Networking_%7C_Security-162b36?style=flat-square&labelColor=0B1117&logo=wordpress&logoColor=00D9FF)
-![Status](https://img.shields.io/badge/Status-Student_%26_builder-162b36?style=flat-square&labelColor=0B1117&logo=linux&logoColor=00D9FF)
+![Profile Views](https://komarev.com/ghpvc/?username=Sahan-Chathumina-25&label=Profile+Views&color=101820&style=flat-square)
+![Followers](https://img.shields.io/github/followers/Sahan-Chathumina-25?style=flat-square&label=Followers&color=101820&labelColor=0B1117&logo=github&logoColor=00D9FF)
+![Focus](https://img.shields.io/badge/Focus-WordPress_%7C_Networking_%7C_Security-101820?style=flat-square&labelColor=0B1117&logo=wordpress&logoColor=00D9FF)
+![Status](https://img.shields.io/badge/Status-Student_%26_builder-101820?style=flat-square&labelColor=0B1117&logo=linux&logoColor=00D9FF)
 
 </div>
 
@@ -93,12 +93,12 @@ Small projects built while learning. Details and source are in the linked reposi
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Sahan-Chathumina-25&show_icons=true&hide_rank=true&include_all_commits=true&hide_border=false&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=3fb950" alt="GitHub statistics for Sahan Chathumina" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahan-Chathumina-25&layout=compact&langs_count=5&hide_border=false&border_color=30363d&bg_color=0d1117&title_color=58a6ff&text_color=3fb950" alt="Most used languages for Sahan Chathumina" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Sahan-Chathumina-25&show_icons=true&hide_rank=true&include_all_commits=true&hide_border=false&border_color=1C303D&bg_color=0B1117&title_color=00D9FF&icon_color=00D9FF&text_color=EAF7FF" alt="GitHub statistics for Sahan Chathumina" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahan-Chathumina-25&layout=compact&langs_count=5&hide_border=false&border_color=1C303D&bg_color=0B1117&title_color=00D9FF&text_color=EAF7FF" alt="Most used languages for Sahan Chathumina" height="170"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=Sahan-Chathumina-25&hide_border=false&border=30363d&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=3fb950&sideLabels=3fb950&currStreakNum=58a6ff&sideNums=58a6ff&dates=8b949e" alt="GitHub contribution streak for Sahan Chathumina" height="160"/>
+<img src="https://streak-stats.demolab.com/?user=Sahan-Chathumina-25&hide_border=false&border=1C303D&background=0B1117&ring=00D9FF&fire=1479FF&currStreakLabel=7F95A5&sideLabels=7F95A5&currStreakNum=00D9FF&sideNums=00D9FF&dates=7F95A5" alt="GitHub contribution streak for Sahan Chathumina" height="160"/>
 
 </div>
 
@@ -126,9 +126,9 @@ Small projects built while learning. Details and source are in the linked reposi
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-Sahan--Chathumina--25-0B1117?style=for-the-badge&logo=github&logoColor=00D9FF)](https://github.com/Sahan-Chathumina-25)
-[![Portfolio](https://img.shields.io/badge/Portfolio-sahancs.is--a.dev-0B1117?style=for-the-badge)](https://sahancs.is-a.dev/)
-[![Security Research](https://img.shields.io/badge/Research-research.sahancs.is--a.dev-0B1117?style=for-the-badge&logo=linux&logoColor=00D9FF)](https://research.sahancs.is-a.dev/)
+[![GitHub](https://img.shields.io/badge/GitHub-Sahan--Chathumina--25-101820?style=for-the-badge&logo=github&logoColor=00D9FF)](https://github.com/Sahan-Chathumina-25)
+[![Portfolio](https://img.shields.io/badge/Portfolio-sahancs.is--a.dev-101820?style=for-the-badge)](https://sahancs.is-a.dev/)
+[![Security Research](https://img.shields.io/badge/Research-research.sahancs.is--a.dev-101820?style=for-the-badge&logo=linux&logoColor=00D9FF)](https://research.sahancs.is-a.dev/)
 
 </div>
 
