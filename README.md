@@ -119,3 +119,13 @@ Small projects built while learning. Details and source are in the linked reposi
 ## Ethical Use
 
 > All security testing and research shown here is performed on systems I own, in personal labs, or where I have explicit permission. Nothing here supports unauthorized access; findings are handled through responsible disclosure with sensitive details withheld.
+
+---
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=3200&pause=1200&color=00D9FF&center=true&vCenter=true&width=560&lines=Building.+Learning.+Researching.;Vulnerability+Research+%7C+Automation+%7C+Linux;Exploring+Systems.+Understanding+Security.;Always+Learning%2C+Always+Improving." alt="Building. Learning. Researching." height="40"/>
+
+<sub>© Sahan Chathumina | Built with curiosity and consistency.</sub>
+
+</div>
