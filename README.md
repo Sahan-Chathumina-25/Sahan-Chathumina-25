@@ -104,24 +104,6 @@ Small projects built while learning. Details and source are in the linked reposi
 
 ---
 
-## Currently Learning
-
-- WordPress theme and plugin development
-- PHP, MySQL, and Laravel fundamentals
-- Linux administration and network configuration
-- Web application and network security testing
-
----
-
-## Future Goals
-
-- Build and document more WordPress and full-stack web applications.
-- Strengthen networking and Linux administration skills through hands-on labs.
-- Continue responsible security research with clear, verified write-ups.
-- Contribute small fixes to open-source projects.
-
----
-
 ## Contact
 
 <div align="center">
