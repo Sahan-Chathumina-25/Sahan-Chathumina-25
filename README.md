@@ -76,6 +76,12 @@ Small projects built while learning. Details and source are in the linked reposi
 
 ## Learning & Research
 
+<div align="center">
+
+![Research topics](https://skillicons.dev/icons?i=linux,bash,git,python,github&theme=dark)
+
+</div>
+
 **Completed and documented locally**
 
 - Source-code audits of open-source projects (PHP, OpenSSL, OpenSSH, xrdp, and Node.js), with reproducible verification notes in the [Security Researches](https://github.com/Sahan-Chathumina-25/Security-Researches) repository.
