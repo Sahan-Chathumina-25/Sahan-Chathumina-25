@@ -76,22 +76,16 @@ Small projects built while learning. Details and source are in the linked reposi
 
 ## Learning & Research
 
-<div align="center">
-
-![Research topics](https://skillicons.dev/icons?i=linux,bash,git,python,github&theme=dark)
-
-</div>
-
 **Completed and documented locally**
 
-- Source-code audits of open-source projects (PHP, OpenSSL, OpenSSH, xrdp, and Node.js), with reproducible verification notes in the [Security Researches](https://github.com/Sahan-Chathumina-25/Security-Researches) repository.
-- Public reports are redacted, and no finding has been submitted to a vendor or published as an advisory.
+- 🔍 Source-code audits of open-source projects (PHP, OpenSSL, OpenSSH, xrdp, and Node.js), with reproducible verification notes in the [Security Researches](https://github.com/Sahan-Chathumina-25/Security-Researches) repository.
+- 🛡️ Public reports are redacted, and no finding has been submitted to a vendor or published as an advisory.
 
 **Ongoing**
 
-- Refining analysis notes and preparing responsible-disclosure reports.
-- Practising web application and network security in personal labs.
-- Working through Linux administration, networking, and hardening topics.
+- 📝 Refining analysis notes and preparing responsible-disclosure reports.
+- 🧪 Practising web application and network security in personal labs.
+- 🖥️ Working through Linux administration, networking, and hardening topics.
 
 ## 🧩 GitHub Stats
 
