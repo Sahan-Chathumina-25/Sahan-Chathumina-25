@@ -54,8 +54,8 @@ I learn by doing: labs, projects, and notes that record both what worked and wha
 
 </div>
 
-- **Web Development** — WordPress, HTML, CSS, JavaScript, PHP, MySQL, Laravel, Full Stack Development
-- **Networking & Systems** — Computer Networking, TCP/IP, DNS and DHCP, Linux Administration, Network Configuration, Cisco Networking, Server Administration
+- **Web Development** — WordPress, HTML, CSS, JavaScript, PHP, MySQL, Laravel, Full Stack Development, Automation
+- **Networking & Systems** — Computer Networking, TCP/IP, DNS and DHCP, Linux, Linux Administration, Network Configuration, Cisco Networking, Server Administration, System Administration (SysAdmin)
 - **Cybersecurity** — Ethical Hacking, Network Security, Vulnerability Research, Linux Security, Web Application Security, Security Testing, Source Code Analysis
 
 ---
