@@ -87,18 +87,18 @@ Small projects built while learning. Details and source are in the linked reposi
 - Practising web application and network security in personal labs.
 - Working through Linux administration, networking, and hardening topics.
 
----
+## 🧩 GitHub Stats
 
-## GitHub Statistics
+---
 
 <div align="center">
 
-<img src="assets/stats.svg" alt="GitHub statistics for Sahan Chathumina" height="170"/>
-<img src="assets/top-langs.svg" alt="Top languages for Sahan Chathumina" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Sahan-Chathumina-25&show_icons=true&hide_rank=true&include_all_commits=true&hide_border=false&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=3fb950" alt="GitHub statistics for Sahan Chathumina" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahan-Chathumina-25&layout=compact&langs_count=5&hide_border=false&border_color=30363d&bg_color=0d1117&title_color=58a6ff&text_color=3fb950" alt="Most used languages for Sahan Chathumina" height="170"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=Sahan-Chathumina-25&hide_border=true&background=0B1117&ring=00D9FF&fire=FFB800&currStreakLabel=00D9FF&sideLabels=9f9f9f&currStreakNum=ffffff&sideNums=ffffff&dates=8a8a99" alt="GitHub contribution streak for Sahan Chathumina" height="160"/>
+<img src="https://streak-stats.demolab.com/?user=Sahan-Chathumina-25&hide_border=false&border=30363d&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=3fb950&sideLabels=3fb950&currStreakNum=58a6ff&sideNums=58a6ff&dates=8b949e" alt="GitHub contribution streak for Sahan Chathumina" height="160"/>
 
 </div>
 
